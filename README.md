@@ -33,6 +33,11 @@ Note to me: Add images of app on various screen sizes
 
 ### Wireframes
 
+[Completed Desktop Index](docs/wireframes/index.png)  
+[Completed Desktop Trails](docs/wireframes/trailspage.png)  
+[Completed Desktop Gallery](docs/wireframes/gallerypage.png)  
+[Completed Desktop Login](docs/wireframes/loginpage.png)   
+
 ------
 
 
