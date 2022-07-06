@@ -25,6 +25,14 @@ Note to me: Add images of app on various screen sizes
 
 ## UX/UI
 
+### Site Goals
+
+### Design Choices
+
+### User Stories
+
+### Wireframes
+
 ------
 
 
