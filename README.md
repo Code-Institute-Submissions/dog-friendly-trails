@@ -69,6 +69,9 @@ gallery.html               |  login.html
 
 ## Credits
 
+NavBar Some help from Love Running Project
+
+Multi Line CTA Button https://keenanpayne.com/css-multi-line-buttons/
 ------
 
 
