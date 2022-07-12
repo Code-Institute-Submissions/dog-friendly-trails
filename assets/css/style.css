@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed&display=swap');
+
+/* Just clearing these out to a default position for the whole site before any styling is applied
+
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+/* headings and logo */
+
+h1, h2{
+    font-family: Oswald, sans-serif;  
+}
+
+#sitelogo{
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
