@@ -8,14 +8,65 @@
     border:0;
 }
 
-/* headings and logo */
+/* Give the body a font family and a color */
+body {
+    font-family: Roboto Condensed, sans-serif;
+    color: #000;
+}
 
+/* Give the headings a font family etc*/
 h1, h2{
-    font-family: Oswald, sans-serif;  
+    font-family: Roboto, sans-serif;
+    color: #000;
+    letter-spacing: 4px;
 }
 
-#sitelogo{
-    float: left;
-    font-size: 280%;
-    margin-left: 30px;
+#siteheader{
+    height: 100px;
 }
+
+#siteheader img{ 
+    float: left;  
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+#siteheader h1{
+    float: left;
+}
+
+#siteheader a{
+    text-decoration: none;
+}
+
+/* navigation links */
+
+#navmenu{
+    letter-spacing: 4px;
+}
+
+#navmenu li{
+    float: right;
+    font-size: 150%;
+    list-style-type: none;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+#navmenu a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#navmenu a:hover{
+    border-bottom: 1px solid #000;
+}
+
+.active{
+    border-bottom: 1px solid #000;
+}
+
+
+
+
+ 
