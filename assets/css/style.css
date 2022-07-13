@@ -2,7 +2,7 @@
 
 /* Just clearing these out to a default position for the whole site before any styling is applied */
 
-{
+*{
     margin:0;
     padding:0;
     border:0;
@@ -30,11 +30,13 @@ header{
 
 header img{ 
     float: left;  
-
+    margin-left: 30px;
 }
 
 header h1{
     float: left;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
 header a{
@@ -82,13 +84,12 @@ header a{
 
 #hero-image-outer{
     height: 700px;
-    width: 95.65%;
     overflow: visible;
 }
 
 #hero-image{
     height:600px;
-    
+    width: 95.2%;
     background: url("/assets/images/tree-forest-walking.png") no-repeat center center;
     z-index: 1;
     margin-top: -100px;
@@ -139,7 +140,7 @@ header a{
 /* Hiking Ethos */
 
 #hiking-ethos{
-    height: 330px;
+    height: 300px;
     position: relative;
     clear: both;
 }
@@ -175,6 +176,8 @@ header a{
 
 #center-ethos h2 {
     padding-left: 70px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 #center-ethos p {
@@ -192,6 +195,8 @@ header a{
 
 #right-ethos h2 {
     padding-left: 70px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 #right-ethos p {
@@ -225,7 +230,9 @@ footer{
     height: 100px;
 }
 
-footer hr{
+#footer-line{
+
+    border-top: 1px solid #000;
     margin-left: 30px;
     margin-right: 30px;
 }
@@ -234,6 +241,7 @@ footer hr{
     width: 33%;
     float: left;
     margin-left: 30px;
+    margin-top: 35px;
 }
 
 .ctabutton-right{
