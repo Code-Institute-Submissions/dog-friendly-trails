@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed&display=swap');
 
-/* Just clearing these out to a default position for the whole site before any styling is applied
+/* Just clearing these out to a default position for the whole site before any styling is applied */
 
-*{
+{
     margin:0;
     padding:0;
     border:0;
@@ -23,14 +23,14 @@ h1, h2{
 
 header{
     height: 100px;
+    max-width: 100%;
     position: relative;
     z-index: 100;
 }
 
 header img{ 
     float: left;  
-    margin-left: 30px;
-    margin-right: 20px;
+
 }
 
 header h1{
@@ -82,13 +82,13 @@ header a{
 
 #hero-image-outer{
     height: 700px;
-    width: 100%;
+    width: 95.65%;
     overflow: visible;
 }
 
 #hero-image{
     height:600px;
-    width: 100%;
+    
     background: url("/assets/images/tree-forest-walking.png") no-repeat center center;
     z-index: 1;
     margin-top: -100px;
