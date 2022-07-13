@@ -1,89 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Dog Friendly Trails information for hikers who are interested in hiking in Ireland accompanied by their dog's">
-        <meta name="keywords" content="dog friendly trails, dog friendly, trails, dog owner, dog, hiking, ireland">
-        <link rel="stylesheet" href="assets/css/style.css">
-    
-        <title>Dog Friendly Trails</title>
-    
-    </head>
-    <body>
-        <header>
-            <div id="siteheader">
-                <a href="index.html" id="sitelogo">
-                        <img src="assets/images/sitelogotransparentsmall.png" alt="site logo showing a dog in a cricle with a tick signifying Ok">
-                        <h1>Find Dog Friendly Trails All Over Ireland</h1>   
-                </a>
-                <nav>
-                    <ul id="navmenu">
-                        <li>
-                            <a href="login.html" class="active">Log In</a>
-                        </li>
-                        <li>
-                            <a href="gallery.html">Gallery</a>
-                        </li>
-                        <li>
-                            <a href="trails.html">Trails</a>
-                        </li>
-                        <li>
-                            <a href="index.html">Home</a>
-                        </li>
-                    </ul> 
-                </nav>
-            </div>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dog Friendly Trails information for hikers who are interested in hiking in Ireland accompanied by their dog's">
+    <meta name="keywords" content="dog friendly trails, dog friendly, trails, dog owner, dog, hiking, ireland">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Dog Friendly Trails</title>
+
+</head>
+<body>
+    <header>
+            <a href="index.html" id="sitelogo">
+                    <img src="assets/images/sitelogotransparentsmall.png" alt="site logo showing a dog in a cricle with a tick signifying Ok">
+                    <h1>Find Dog Friendly Trails All Over Ireland</h1>   
+            </a>
+            <nav>
+                <ul id="navmenu">
+                    <li>
+                        <a href="login.html" class="active">Log In</a>
+                    </li>
+                    <li>
+                        <a href="gallery.html">Gallery</a>
+                    </li>
+                    <li>
+                        <a href="trails.html">Trails</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                </ul> 
+            </nav>
         </header>
-        
-        <section id="login">This is the hero section for Login which will contain an image and text overlay</section>
-    
-        <footer>
-            <hr id="footer-line">
-            <div id="elevator-left">
-                <p>This site is dedicated to providing all dog lovers with information on dog friendly trails.  Our subscribers help keep the site up to date with all the latest changes in dog related rules and regulations on Irelands walking trails.</p>
-            </div>
-            <ul class="social-icons-center">
-                <li>
-                    <a href="https://www.facebook.com" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.twitter.com" target="_blank" rel="noopener"><i class="fab fa-twitter-square"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
-                </li>
-                <li>
-                    <a href="https://ie.linkedin.com/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.youtube.com" target="_blank" rel="noopener"><i class="fab fa-youtube-square"></i></a>
-                </li>
-            </ul>
-            <div class="ctabutton-right">
-                <a href="login.html">
-                <button class="-bg-yellow">
-                    <span>Tell Us About Your Hike</span>
-                    <span>Click Here to Subscribe</span>
+    </header>
+    <section id="hero-image-outer">
+        <div id="opaqueit"></div>
+        <div id="hero-image"></div>
+        <div id="cover-text">
+            <a href="login.html">
+            <h2>Dog Friendly Trails</h2>
+            <h3>Subscribe Now!</h3>
+            </a>
+    </section>
+
+    <section id="hiking-ethos">
+        <div id="left-ethos">
+            <h3>Just look at the smile on this guy</h3>
+            <img src="/assets/images/smiling-dog-small.png" alt="picture of dog running with a happy smile">
+            <h2>WHY LEAVE POOCH AT HOME?</h2>
+            <p>The quantity of dog friendly trails are getting reduced all of the time.<br><br>Summer 2022 saw dogs banned from Blue Flag beaches for example.</p>
+        </div>
+        <div id="center-ethos">
+            <section class="form-section"></section>
+            <form method="POST" action="https://formdump.codeinstitute.net/" class="subscribe-form">
+                <h2>Please subscribe to contribute! <i class="far fa-bell"></i></h2>
+            
+                <label for="fname">First Name</label>
+                <input class="text-input" id="fname" name="first_name" type="text" required>
+            
+                <label for="lname">Last Name</label>
+                <input class="text-input" id="lname" name="last_name" type="text" required>
+            
+                <label for="email">Email Address</label>
+                <input class="text-input"  id="email" name="email_address" type="email" required>
+            
+                <label for="alltrails">All Trails</label>
+                <input type="radio" id="alltrails" name="area_preference" value="alltrails" required>
+                <label for="munster">Munster</label>
+                <input type="radio" id="munster" name="area_preference" value="munster" required>
+                <label for="leinster">Leinster</label>
+                <input type="radio" id="leinster" name="area_preference" value="leinster" required>
+                <label for="connaught">Connaught</label>
+                <input type="radio" id="connaught" name="area_preference" value="connaught" required>
+                <label for="ulster">Ulster</label>
+                <input type="radio" id="ulster" name="area_preference" value="ulster" required>
+                <p>Please Note:<br>Our subscribers get access to all our trails and of course are invaluable in keeping our information up to date.</p>
+                <input class="subscribe-button" type="submit" value="Subscribe">
+            </form>
+        </div>     
+        <div id="right-ethos">
+            <section class="form-section"></section>
+            <form method="POST" action="https://formdump.codeinstitute.net/" class="login-form">
+                <h2>Log In <i class="far fa-sign-in-alt"></i></h2>
+            
+                <label for="uname">User Name</label>
+                <input class="text-input" id="uname" name="user_name" type="text" required>
+            
+                <label for="pword">Password</label>
+                <input class="text-input" id="pword" name="pass-word" type="password" required>
+                <p>Lost your password?</p>
+                <a href="#">Click Here to Reset</a>
+                       
+                <input class="login-button" type="submit" value="Log In">                
+            </form>
+        </div>        
+   
+
+    </section>
+
+     <footer>
+        <hr id="footer-line">
+        <div id="elevator-left">
+            <p>This site is dedicated to providing all dog lovers with information on dog friendly trails.  Our subscribers help keep the site up to date with all the latest changes in dog related rules and regulations on Irelands walking trails.</p>
+        </div>
+        <ul class="social-icons-center">
+            <li>
+                <a href="https://www.facebook.com" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://www.twitter.com" target="_blank" rel="noopener"><i class="fab fa-twitter-square"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+                <a href="https://ie.linkedin.com/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com" target="_blank" rel="noopener"><i class="fab fa-youtube-square"></i></a>
+            </li>
+        </ul>
+        <div class="ctabutton-right">
+            <a href="login.html">
+            <button class="-bg-yellow">
+                <span>Tell Us About Your Hike</span>
+                <span>Click Here to Subscribe</span>
+                
+                <div class="arrowPacman">
+                  <div class="arrowPacman-clip">
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M7.10081 0L5.88245 1.23617L10.7016 6.12576H0V7.87423H10.7016L5.88245 12.7638L7.10081 14L14 7L7.10081 0Z" fill="white"/>
+                    </svg>
                     
-                    <div class="arrowPacman">
-                      <div class="arrowPacman-clip">
-                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M7.10081 0L5.88245 1.23617L10.7016 6.12576H0V7.87423H10.7016L5.88245 12.7638L7.10081 14L14 7L7.10081 0Z" fill="white"/>
-                        </svg>
-                        
-                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M7.10081 0L5.88245 1.23617L10.7016 6.12576H0V7.87423H10.7016L5.88245 12.7638L7.10081 14L14 7L7.10081 0Z" fill="white"/>
-                        </svg>
-                      </div>
-                    </div>
-                </button>
-                </a>
-            </div>
-         </footer> 
-    
-        <!-- Font awesome script -->
-        <script src="https://kit.fontawesome.com/b83175b9a4.js" crossorigin="anonymous"></script>
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M7.10081 0L5.88245 1.23617L10.7016 6.12576H0V7.87423H10.7016L5.88245 12.7638L7.10081 14L14 7L7.10081 0Z" fill="white"/>
+                    </svg>
+                  </div>
+                </div>
+            </button>
+            </a>
+        </div>
+     </footer> 
+
+    <!-- Font awesome script -->
+    <script src="https://kit.fontawesome.com/b83175b9a4.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
+
+
