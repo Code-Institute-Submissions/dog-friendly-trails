@@ -45,54 +45,55 @@
             </a>
     </section>
 
-    <section id="hiking-ethos">
-        <div id="left-ethos">
+    <section id="form-activity">
+        <div id="left-activity">
             <h3>Just look at the smile on this guy</h3>
             <img src="/assets/images/smiling-dog-small.png" alt="picture of dog running with a happy smile">
             <h2>WHY LEAVE POOCH AT HOME?</h2>
             <p>The quantity of dog friendly trails are getting reduced all of the time.<br><br>Summer 2022 saw dogs banned from Blue Flag beaches for example.</p>
         </div>
-        <div id="center-ethos">
-            <section class="form-section"></section>
-            <form method="POST" action="https://formdump.codeinstitute.net/" class="subscribe-form">
-                <h2>Please subscribe to contribute! <i class="far fa-bell"></i></h2>
+        <div id="center-activity">
+            <h2>Please subscribe to contribute! <i class="far fa-bell"></i></h2>
+            <form method="POST" action="https://formdump.codeinstitute.net/" class="subscribe-form">              
             
-                <label for="fname">First Name</label>
-                <input class="text-input" id="fname" name="first_name" type="text" required>
+                <label for="fname">First Name</label><br>
+                <input class="text-input" id="fname" name="first_name" type="text" required><br>
             
-                <label for="lname">Last Name</label>
-                <input class="text-input" id="lname" name="last_name" type="text" required>
+                <label for="lname">Last Name</label><br>
+                <input class="text-input" id="lname" name="last_name" type="text" required><br><br>
             
-                <label for="email">Email Address</label>
-                <input class="text-input"  id="email" name="email_address" type="email" required>
+                <label for="email">Email Address</label><br>
+                <input class="text-input"  id="email" name="email_address" type="email" required><br>
             
-                <label for="alltrails">All Trails</label>
-                <input type="radio" id="alltrails" name="area_preference" value="alltrails" required>
-                <label for="munster">Munster</label>
-                <input type="radio" id="munster" name="area_preference" value="munster" required>
-                <label for="leinster">Leinster</label>
-                <input type="radio" id="leinster" name="area_preference" value="leinster" required>
-                <label for="connaught">Connaught</label>
-                <input type="radio" id="connaught" name="area_preference" value="connaught" required>
-                <label for="ulster">Ulster</label>
-                <input type="radio" id="ulster" name="area_preference" value="ulster" required>
-                <p>Please Note:<br>Our subscribers get access to all our trails and of course are invaluable in keeping our information up to date.</p>
+                <div id="trailprefs">
+                    <h4>Trail Preferences</h4>
+                        <input type="radio" id="alltrails" name="area_preference" value="alltrails" required>
+                        <label for="alltrails">All Trails</label>                      
+                        <input type="radio" id="munster" name="area_preference" value="munster" required>
+                        <label for="munster">Munster</label>                     
+                        <input type="radio" id="leinster" name="area_preference" value="leinster" required>
+                        <label for="leinster">Leinster</label>                      
+                        <input type="radio" id="connaught" name="area_preference" value="connaught" required>
+                        <label for="connaught">Connaught</label>                       
+                        <input type="radio" id="ulster" name="area_preference" value="ulster" required>
+                        <label for="ulster">Ulster</label>
+                </div>
+                <br>
+                <h6>Please Note:<br>Our subscribers get access to all our trails and of course are invaluable in keeping our information up to date.</h6>
                 <input class="subscribe-button" type="submit" value="Subscribe">
             </form>
         </div>     
-        <div id="right-ethos">
-            <section class="form-section"></section>
+        <div id="right-activity">
+            <h2>Log In <i class="fad fa-sign-in"></i></h2>
             <form method="POST" action="https://formdump.codeinstitute.net/" class="login-form">
-                <h2>Log In <i class="far fa-sign-in-alt"></i></h2>
+           
+                <label for="uname">User Name</label><br>
+                <input class="text-input" id="uname" name="user_name" type="text" required><br>
             
-                <label for="uname">User Name</label>
-                <input class="text-input" id="uname" name="user_name" type="text" required>
-            
-                <label for="pword">Password</label>
-                <input class="text-input" id="pword" name="pass-word" type="password" required>
-                <p>Lost your password?</p>
-                <a href="#">Click Here to Reset</a>
-                       
+                <label for="pword">Password</label><br>
+                <input class="text-input" id="pword" name="pass-word" type="password" required><br>
+                <h6>Lost your password?</h6>
+                <a href="#">Click Here to Reset</a><br><br>
                 <input class="login-button" type="submit" value="Log In">                
             </form>
         </div>        

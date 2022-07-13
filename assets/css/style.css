@@ -222,12 +222,155 @@ header a{
     height: 600px;
 }
 
-/* Login */
+/* Login Page*/
 
 #login{
     height: 600px;
 }
 
+#form-activity{
+    height: 300px;
+    position: relative;
+    clear: both;   
+}
+
+#left-activity{
+    width: 33%;
+    text-align: center;
+    margin-left: 30px;
+    float: left;
+    position: relative;
+    z-index: 50;
+}
+
+#left-activity h3{
+    font-style: italic;
+    color: #fff;
+    margin-top: -260px;
+    background-color: rgba(70, 150, 71, .35);
+    margin-left: 160px;
+    margin-bottom: -.1rem;
+    padding: 5px;
+    max-width: 290px;
+}
+
+#left-activity h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#center-activity{
+    width: 33%;
+    margin-top: -80px;
+    margin-left: -80px;
+    text-align: left;
+    float: left;
+    position: relative;
+    margin-left: 5px;
+}
+
+#center-activity h2 {
+    padding-left: 70px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#right-activity{
+    width: 33%;
+    margin-top: -82px;
+    text-align: left;
+    float: right;
+    position: relative;
+}
+
+#right-activity h2 {
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Form Subscribe*/
+
+.subscribe-form {
+    color: #000;
+    position: absolute;
+    left: 6%;
+    padding: 30px;
+    margin-top: -30px;
+}
+
+.subscribe-form input{
+    color: #000;
+    border: 1px solid #000;
+    margin: 5px 0;
+    width: 60%;
+    line-height: 24px;
+}
+
+.subscribe-form #email{
+    width: 100%;
+}
+
+#trailprefs{
+    position: absolute;
+    left: 50%;
+    top: 12%;
+}
+
+#trailprefs h4{   
+    text-align: center;
+}
+
+.subscribe-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #ffb31c;
+    color: #000;
+    display: block;
+    max-width: fit-content;
+}
+
+.subscribe-button:hover {
+    background-color: rgba(50, 50, 50, 0.25);
+}
+
+/* Form Log In*/
+
+.login-form {
+    color: #000;
+    position: absolute;
+    padding: 30px;
+    margin-top: -30px;
+}
+
+.login-form input{
+    color: #000;
+    border: 1px solid #000;
+    margin: 5px 0;
+    width: 160%;
+    line-height: 24px;
+}
+
+
+
+.login-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #ffb31c;
+    color: #000;
+    display: block;
+    max-width: fit-content;
+}
+
+.login-button:hover {
+    background-color: rgba(50, 50, 50, 0.25);
+}
 
 /* Footer */
 
