@@ -216,6 +216,8 @@ header a{
     height: 600px;
 }
 
+
+
 /* Gallery */
 
 #gallery{
@@ -375,7 +377,13 @@ header a{
 /* Footer */
 
 footer{
-    height: 100px;
+    /* height: 100px; */
+        display: flex;
+        align-items: center;
+        width: 100%;
+        bottom: 0;
+        height: 10rem;
+        margin: 20px 30px;
 }
 
 #footer-line{
