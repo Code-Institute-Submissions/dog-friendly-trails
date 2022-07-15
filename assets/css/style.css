@@ -212,12 +212,70 @@ header a{
 
 /* Trails */
 
-#trails{
-    height: 600px;
-}
+.trail-flex-container {
+    display: flex;
+    flex-direction: row;
+    margin: 0 30px;
+  }
+  
+  .trail-flex-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 20px;
+  }
 
+  .trail-flex-text {
+     display: flex;
+     justify-content: flex-start;
+     margin: 20px;
+  }
 
+  .trail-flex-image {
+    display: flex;
+    justify-content: center;
+    margin: 20px; 
+ }
 
+ .trail-flex-list {
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px;
+ }
+
+ .trail-flex-list ul {
+    list-style: none;
+    line-height: 2rem;
+ }
+
+ .trail-flex-link {
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px;
+
+ }
+
+  .trail-flex-item-left {
+    background-color: burlywood;
+    padding: 10px;
+    flex: 33.3%;
+ 
+  }
+
+  .trail-flex-item-center {
+    background-color: aquamarine;
+    padding: 10px;
+    flex: 33.3%;
+  }
+  
+  .trail-flex-item-right {
+    background-color: dodgerblue;
+    padding: 10px;
+    flex: 33.3%;
+  }
+
+  
+  
 /* Gallery */
 
 #gallery{
