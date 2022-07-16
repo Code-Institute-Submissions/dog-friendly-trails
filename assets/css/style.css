@@ -1,12 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed&display=swap');
 
 /* Just clearing these out to a default position for the whole site before any styling is applied */
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
 
-* {
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *::before, *::after {
+    box-sizing: inherit;
     margin: 0;
     padding: 0;
-    border: 0;
-}
+  }
+
 
 /* Give the body a font family and a color */
 body {
@@ -22,49 +32,45 @@ h2 {
     letter-spacing: 4px;
 }
 
-header {
+.site-flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 30px;
     height: 100px;
-    max-width: 100%;
-    position: relative;
-    z-index: 100;
 }
 
-header img {
-    float: left;
-    margin-left: 30px;
-}
-
-header h1 {
-    float: left;
-    margin-left: 20px;
-    margin-top: 20px;
-}
-
-header a {
+.site-flex-header {  
+    font-size: 250%;
     text-decoration: none;
-}
-
-/* navigation links */
-
-#navmenu {
-    letter-spacing: 4px;
-}
-
-#navmenu li {
-    float: right;
-    font-size: 125%;
     font-weight: 600;
-    list-style-type: none;
-    margin-top: 30px;
-    margin-right: 30px;
+    color: #000;
+    margin-left: 20px;
+
 }
 
-#navmenu a {
+.site-flex-header a {
     text-decoration: none;
-    color: inherit;
+    font-weight: 600;
+    color: #000;
 }
 
-#navmenu a:hover {
+.site-flex-list ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-size: 150%;
+    font-weight: 600; 
+    gap: 20px;
+}
+
+.site-flex-list a {
+    text-decoration: none;
+    color: #000;
+}
+
+#site-flex-list a:hover {
     border-bottom: 1px solid #000;
 }
 
@@ -265,7 +271,7 @@ header a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-item: baseline;
+    align-items: baseline;
 }
 
 .trail-flex-image img {
@@ -289,7 +295,7 @@ header a {
     justify-content: flex-start;
     margin: 20px;
     font-weight: 600;
-    self-align: flex-end;
+    align-self: flex-end;
     flex-wrap: wrap;
     font-size: 100%;
 }
@@ -316,6 +322,7 @@ header a {
     }
 }
 
+
 @media (max-width: 1550px) {
 
     .trail-flex-header,
@@ -341,7 +348,7 @@ header a {
     .trail-flex-header,
     .trail-flex-text,
     .trail-flex-list ul,
-    .trail-flex-link  {
+    .trail-flex-link {
         font-size: 75%;
     }
 }
@@ -365,6 +372,7 @@ header a {
         font-size: 60%;
     }
 }
+
 @media (max-width: 1160px) {
 
     .trail-flex-header,
