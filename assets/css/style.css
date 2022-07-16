@@ -35,13 +35,12 @@ h2 {
 .site-flex-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
     margin: 0 30px;
     height: 100px;
 }
 
-.site-flex-header {  
+.site-flex-header {
     font-size: 250%;
     text-decoration: none;
     font-weight: 600;
@@ -51,9 +50,14 @@ h2 {
 }
 
 .site-flex-header a {
+    display: flex;
     text-decoration: none;
     font-weight: 600;
     color: #000;
+}
+
+.site-flex-list {
+    margin-left: auto;
 }
 
 .site-flex-list ul {
@@ -371,6 +375,17 @@ h2 {
     .trail-flex-link {
         font-size: 60%;
     }
+
+    .site-flex-container { 
+        display: flex;
+        flex-flow: row wrap;
+        width: 80%;
+        margin-bottom: 30px;
+    }
+
+    .site-flex-list {
+        margin-left: 97px;
+    }
 }
 
 @media (max-width: 1160px) {
@@ -401,6 +416,24 @@ h2 {
     .trail-flex-link {
         font-size: 40%;
     }
+
+    .site-flex-header { 
+        font-size: 220%;
+    }
+
+    .site-flex-list ul {
+        font-size: 120%;
+    }
+}
+
+@media (max-width: 850px) {
+    .site-flex-header { 
+        font-size: 200%;
+    }
+
+    .site-flex-list ul {
+        font-size: 100%;
+    }
 }
 
 @media (max-width: 800px) {
@@ -416,12 +449,42 @@ h2 {
     }
 }
 
+@media (max-width: 750px) {
+    .site-flex-header { 
+        font-size: 180%;
+    }
+
+    .site-flex-list ul {
+        font-size: 100%;
+    }
+}
+
+@media (max-width: 700px) {
+    .site-flex-header { 
+        font-size: 150%;
+    }
+
+    .site-flex-list ul {
+        font-size: 95%;
+    }
+}
+
 @media (max-width: 650px) {
 
     .trail-flex-header,
     .trail-flex-text,
     .trail-flex-list ul,
     .trail-flex-link {
+        font-size: 90%;
+    }
+}
+
+@media (max-width: 600px) {
+    .site-flex-header { 
+        font-size: 130%;
+    }
+
+    .site-flex-list ul {
         font-size: 90%;
     }
 }
@@ -434,6 +497,14 @@ h2 {
     .trail-flex-link {
         font-size: 80%;
     }
+
+    .site-flex-header { 
+        font-size: 120%;
+    }
+
+    .site-flex-list ul {
+        font-size: 90%;
+    }
 }
 
 @media (max-width: 500px) {
@@ -444,6 +515,15 @@ h2 {
     .trail-flex-link {
         font-size: 70%;
     }
+
+    .site-flex-header { 
+        font-size: 100%;
+    }
+
+    .site-flex-list ul {
+        font-size: 90%;
+    }
+
 }
 
 @media (max-width: 480px) {
@@ -454,8 +534,42 @@ h2 {
     .trail-flex-link {
         font-size: 50%;
     }
+
+    .site-flex-header { 
+        font-size: 90%;
+    }
+
+    .site-flex-list ul {
+        font-size: 80%;
+    }
+
 }
 
+
+@media (max-width: 425px) {
+
+    .site-flex-header { 
+        font-size: 80%;
+    }
+
+    .site-flex-list ul {
+        font-size: 75%;
+    }
+
+}
+
+@media (max-width: 385px) {
+
+    .site-flex-header { 
+        font-size: 73%;
+    }
+
+    .site-flex-list ul {
+        font-size: 70%;
+        margin-left: -80px;
+    }
+
+}
 
 /* Smallest screensize in active use is 320 pixels wide on the iPhone 5 
    So this media cutoff works well down to that size*/
@@ -467,6 +581,30 @@ h2 {
     .trail-flex-link {
         font-size: 40%;
     }
+
+    .site-flex-header { 
+        font-size: 65%;
+    }
+
+    .site-flex-list ul {
+        font-size: 70%;
+    }
+
+}
+
+/* Smallest screensize in active use is 320 pixels wide on the iPhone 5 
+   But this is just to manage the text size*/
+
+@media (max-width: 340px) {
+
+    .site-flex-header { 
+        font-size: 59%;
+    }
+
+    .site-flex-list ul {
+        font-size: 70%;
+    }
+
 }
 
 /* Gallery */
