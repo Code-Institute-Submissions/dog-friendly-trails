@@ -288,29 +288,51 @@ header a {
     display: flex;
     justify-content: flex-start;
     margin: 20px;
-    font-size: 60%;
     font-weight: 600;
     self-align: flex-end;
     flex-wrap: wrap;
+    font-size: 100%;
 }
 
 
 /* Responsive layout - makes a one column-layout instead of two-column layout */
-@media (max-width: 1580px) {
+@media (max-width: 1650px) {
 
     .trail-flex-header,
     .trail-flex-text,
-    .trail-flex-list ul {
-        font-size: 100%;
+    .trail-flex-list ul,
+    .trail-flex-link {
+        font-size: 95%;
     }
 }
 
-@media (max-width: 1540px) {
+@media (max-width: 1600px) {
 
     .trail-flex-header,
     .trail-flex-text,
-    .trail-flex-list ul {
+    .trail-flex-list ul,
+    .trail-flex-link {
         font-size: 90%;
+    }
+}
+
+@media (max-width: 1550px) {
+
+    .trail-flex-header,
+    .trail-flex-text,
+    .trail-flex-list ul,
+    .trail-flex-link {
+        font-size: 85%;
+    }
+}
+
+@media (max-width: 1450px) {
+
+    .trail-flex-header,
+    .trail-flex-text,
+    .trail-flex-list ul,
+    .trail-flex-link {
+        font-size: 80%;
     }
 }
 
@@ -318,8 +340,9 @@ header a {
 
     .trail-flex-header,
     .trail-flex-text,
-    .trail-flex-list ul {
-        font-size: 80%;
+    .trail-flex-list ul,
+    .trail-flex-link  {
+        font-size: 75%;
     }
 }
 
@@ -327,17 +350,28 @@ header a {
 
     .trail-flex-header,
     .trail-flex-text,
-    .trail-flex-list ul {
+    .trail-flex-list ul,
+    .trail-flex-link {
         font-size: 70%;
     }
 }
 
+@media (max-width: 1250px) {
+
+    .trail-flex-header,
+    .trail-flex-text,
+    .trail-flex-list ul,
+    .trail-flex-link {
+        font-size: 60%;
+    }
+}
 @media (max-width: 1160px) {
 
     .trail-flex-header,
     .trail-flex-text,
-    .trail-flex-list ul {
-        font-size: 60%;
+    .trail-flex-list ul,
+    .trail-flex-link {
+        font-size: 55%;
     }
 }
 
@@ -345,7 +379,8 @@ header a {
 
     .trail-flex-header,
     .trail-flex-text,
-    .trail-flex-list ul {
+    .trail-flex-list ul,
+    .trail-flex-link {
         font-size: 50%;
     }
 }
@@ -354,7 +389,8 @@ header a {
 
     .trail-flex-header,
     .trail-flex-text,
-    .trail-flex-list ul {
+    .trail-flex-list ul,
+    .trail-flex-link {
         font-size: 40%;
     }
 }
