@@ -2,10 +2,10 @@
 
 /* Just clearing these out to a default position for the whole site before any styling is applied */
 
-*{
-    margin:0;
-    padding:0;
-    border:0;
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 /* Give the body a font family and a color */
@@ -15,41 +15,42 @@ body {
 }
 
 /* Give the headings a font family etc*/
-h1, h2{
+h1,
+h2 {
     font-family: Roboto, sans-serif;
     color: #000;
     letter-spacing: 4px;
 }
 
-header{
+header {
     height: 100px;
     max-width: 100%;
     position: relative;
     z-index: 100;
 }
 
-header img{ 
-    float: left;  
+header img {
+    float: left;
     margin-left: 30px;
 }
 
-header h1{
+header h1 {
     float: left;
     margin-left: 20px;
     margin-top: 20px;
 }
 
-header a{
+header a {
     text-decoration: none;
 }
 
 /* navigation links */
 
-#navmenu{
+#navmenu {
     letter-spacing: 4px;
 }
 
-#navmenu li{
+#navmenu li {
     float: right;
     font-size: 125%;
     font-weight: 600;
@@ -58,37 +59,37 @@ header a{
     margin-right: 30px;
 }
 
-#navmenu a{
+#navmenu a {
     text-decoration: none;
     color: inherit;
 }
 
-#navmenu a:hover{
+#navmenu a:hover {
     border-bottom: 1px solid #000;
 }
 
-.active{
+.active {
     border-bottom: 1px solid #000;
 }
 
 /*Hero Image */
 
-#opaqueit{
+#opaqueit {
     width: 100%;
     height: 75px;
     position: relative;
-    background:rgba(255,255,255, 0.35);
+    background: rgba(255, 255, 255, 0.35);
     z-index: 5;
     margin-top: -100px;
 }
 
-#hero-image-outer{
+#hero-image-outer {
     height: 700px;
     overflow: visible;
 }
 
-#hero-image{
-    height:600px;
+#hero-image {
+    height: 600px;
     width: 95.2%;
     background: url("../images/tree-forest-walking.png") no-repeat center center;
     z-index: 1;
@@ -101,15 +102,17 @@ header a{
 
 /* Creates the level of zoom for hero image */
 @keyframes hero-zoom {
-    from{
+    from {
         transform: scale(1);
     }
-    to{
+
+    to {
         transform: scale(1.1);
     }
 }
 
-#cover-text, #cover-text h2 {
+#cover-text,
+#cover-text h2 {
     color: #ffffff;
 }
 
@@ -132,20 +135,20 @@ header a{
 
 }
 
-#cover-text a{
+#cover-text a {
     text-decoration: none;
     color: #fff;
 }
 
 /* Hiking Ethos */
 
-#hiking-ethos{
+#hiking-ethos {
     height: 300px;
     position: relative;
     clear: both;
 }
 
-#left-ethos{
+#left-ethos {
     width: 33%;
     text-align: center;
     margin-left: 30px;
@@ -154,7 +157,7 @@ header a{
     z-index: 50;
 }
 
-#left-ethos h3{
+#left-ethos h3 {
     font-style: italic;
     color: #fff;
     margin-top: -260px;
@@ -165,12 +168,12 @@ header a{
     max-width: 290px;
 }
 
-#left-ethos h2{
+#left-ethos h2 {
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
-#center-ethos{
+#center-ethos {
     width: 33%;
     margin-top: -80px;
     margin-left: -40px;
@@ -189,7 +192,7 @@ header a{
     padding-left: 70px;
 }
 
-#right-ethos{
+#right-ethos {
     width: 33%;
     margin-top: -82px;
     text-align: left;
@@ -218,184 +221,229 @@ header a{
     font-size: 130%;
     background-color: darkcyan;
     margin: 0 30px
-  }
+}
 
-  .flex-container {
+.flex-container {
     display: flex;
     flex-direction: row;
     font-size: 130%;
     margin: 0 30px;
-  }
-  
-  .flex-item-left {
+}
+
+.flex-item-left {
     background-color: burlywood;
     padding: 10px;
     flex: 33.3%;
-  }
-  
-  .flex-item-center {
+}
+
+.flex-item-center {
     background-color: aquamarine;
     padding: 10px;
     flex: 33.3%;
-  }
-  
-  .flex-item-right {
+}
+
+.flex-item-right {
     background-color: dodgerblue;
     padding: 10px;
     flex: 33.3%;
-  }
-  
-  .trail-flex-header {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      margin: 0 20px;
+}
+
+.trail-flex-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+.trail-flex-text {
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px;
+}
+
+.trail-flex-image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-item: baseline;
+}
+
+.trail-flex-image img {
+    max-width: 100%;
+}
+
+.trail-flex-list {
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px;
+}
+
+.trail-flex-list ul {
+    list-style: none;
+    line-height: 2rem;
+    font-weight: 500;
+}
+
+.trail-flex-link {
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px;
+    font-size: 60%;
+    font-weight: 600;
+    self-align: flex-end;
+    flex-wrap: wrap;
+}
+
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 1580px) {
+
+    .trail-flex-header,
+    .trail-flex-text,
+    .trail-flex-list ul {
+        font-size: 100%;
     }
-  
-  .trail-flex-text {
-       display: flex;
-       justify-content: flex-start;
-       margin: 0 20px;
+}
+
+@media (max-width: 1540px) {
+
+    .trail-flex-header,
+    .trail-flex-text,
+    .trail-flex-list ul {
+        font-size: 90%;
     }
-   
-   .trail-flex-image {
-         display:flex;
-      flex-wrap: wrap;
-         justify-content: center;
-      align-item: baseline;
-   }
-   
-   .trail-flex-image img {
-         max-width: 100%; 
-   }
-   
-   .trail-flex-list {
-      display: flex;
-      justify-content: flex-start;
-      margin: 20px;
-   }
-   
-   .trail-flex-list ul {
-      list-style: none;
-      line-height: 2rem;
-      font-weight: 500;
-   }
-   
-   .trail-flex-link {
-      display: flex;
-      justify-content: flex-start;
-      margin: 20px;
-      font-size: 60%;
-      font-weight: 600;
-      self-align: flex-end;
-      flex-flow: row wrap
-   }
-   
-    
-  /* Responsive layout - makes a one column-layout instead of two-column layout */
-  @media (max-width: 1580px) {
-    .trail-flex-header, .trail-flex-text, .trail-flex-list ul{
-      font-size: 100%;
+}
+
+@media (max-width: 1400px) {
+
+    .trail-flex-header,
+    .trail-flex-text,
+    .trail-flex-list ul {
+        font-size: 80%;
     }
-  }
-  
-  @media (max-width: 1540px) {
-    .trail-flex-header, .trail-flex-text, .trail-flex-list ul {
-      font-size: 90%;
+}
+
+@media (max-width: 1300px) {
+
+    .trail-flex-header,
+    .trail-flex-text,
+    .trail-flex-list ul {
+        font-size: 70%;
     }
-  }
-  
-  @media (max-width: 1400px) {
-    .trail-flex-header, .trail-flex-text, .trail-flex-list ul {
-      font-size: 80%;
+}
+
+@media (max-width: 1160px) {
+
+    .trail-flex-header,
+    .trail-flex-text,
+    .trail-flex-list ul {
+        font-size: 60%;
     }
-  }
-  
-  @media (max-width: 1300px) {
-    .trail-flex-header, .trail-flex-text, .trail-flex-list ul {
-      font-size: 70%;
+}
+
+@media (max-width: 1050px) {
+
+    .trail-flex-header,
+    .trail-flex-text,
+    .trail-flex-list ul {
+        font-size: 50%;
     }
-  }
-  
-  @media (max-width: 1160px) {
-    .trail-flex-header, .trail-flex-text, .trail-flex-list ul {
-      font-size: 60%;
+}
+
+@media (max-width: 960px) {
+
+    .trail-flex-header,
+    .trail-flex-text,
+    .trail-flex-list ul {
+        font-size: 40%;
     }
-  }
-  
-  @media (max-width: 1050px) {
-    .trail-flex-header, .trail-flex-text, .trail-flex-list ul {
-      font-size: 50%;
-    }
-  }
-  
-  @media (max-width: 960px) {
-    .trail-flex-header, .trail-flex-text, .trail-flex-list ul {
-      font-size: 40%;
-    }
-  }
-  
-  @media (max-width: 800px) {
+}
+
+@media (max-width: 800px) {
     .flex-container {
-      flex-direction: column;
+        flex-direction: column;
     }
-    .trail-flex-header, .trail-flex-text, .trail-flex-list ul, .trail-flex-link {
-      font-size: 100%;
+
+    .trail-flex-header,
+    .trail-flex-text,
+    .trail-flex-list ul,
+    .trail-flex-link {
+        font-size: 100%;
     }
-  }
-  
-  @media (max-width: 650px) {
-    .trail-flex-header, .trail-flex-text, .trail-flex-list ul, .trail-flex-link{
-      font-size: 90%;
+}
+
+@media (max-width: 650px) {
+
+    .trail-flex-header,
+    .trail-flex-text,
+    .trail-flex-list ul,
+    .trail-flex-link {
+        font-size: 90%;
     }
-  }
-  
-  @media (max-width: 550px) {
-    .trail-flex-header, .trail-flex-text, .trail-flex-list ul, .trail-flex-link {
-      font-size: 80%;
+}
+
+@media (max-width: 550px) {
+
+    .trail-flex-header,
+    .trail-flex-text,
+    .trail-flex-list ul,
+    .trail-flex-link {
+        font-size: 80%;
     }
-  }
-  
-  @media (max-width: 500px) {
-    .trail-flex-header, .trail-flex-text, .trail-flex-list ul, .trail-flex-link {
-      font-size: 70%;
+}
+
+@media (max-width: 500px) {
+
+    .trail-flex-header,
+    .trail-flex-text,
+    .trail-flex-list ul,
+    .trail-flex-link {
+        font-size: 70%;
     }
-  }
-  
-  @media (max-width: 480px) {
-    .trail-flex-header, .trail-flex-text, .trail-flex-list ul, .trail-flex-link {
-      font-size: 50%;
+}
+
+@media (max-width: 480px) {
+
+    .trail-flex-header,
+    .trail-flex-text,
+    .trail-flex-list ul,
+    .trail-flex-link {
+        font-size: 50%;
     }
-  }
-  
-  
-  /* Smallest screensize in active use is 320 pixels wide on the iPhone 5 
+}
+
+
+/* Smallest screensize in active use is 320 pixels wide on the iPhone 5 
    So this media cutoff works well down to that size*/
-  @media (max-width: 360px) {
-    .trail-flex-header, .trail-flex-text, .trail-flex-list ul, .trail-flex-link {
-      font-size: 40%;
+@media (max-width: 360px) {
+
+    .trail-flex-header,
+    .trail-flex-text,
+    .trail-flex-list ul,
+    .trail-flex-link {
+        font-size: 40%;
     }
-  }
-  
+}
+
 /* Gallery */
 
-#gallery{
+#gallery {
     height: 600px;
 }
 
 /* Login Page*/
 
-#login{
+#login {
     height: 600px;
 }
 
-#form-activity{
+#form-activity {
     height: 300px;
     position: relative;
-    clear: both;   
+    clear: both;
 }
 
-#left-activity{
+#left-activity {
     width: 33%;
     text-align: center;
     margin-left: 30px;
@@ -404,7 +452,7 @@ header a{
     z-index: 50;
 }
 
-#left-activity h3{
+#left-activity h3 {
     font-style: italic;
     color: #fff;
     margin-top: -260px;
@@ -415,12 +463,12 @@ header a{
     max-width: 290px;
 }
 
-#left-activity h2{
+#left-activity h2 {
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
-#center-activity{
+#center-activity {
     width: 33%;
     margin-top: -80px;
     margin-left: -80px;
@@ -436,7 +484,7 @@ header a{
     margin-bottom: 10px;
 }
 
-#right-activity{
+#right-activity {
     width: 33%;
     margin-top: -82px;
     text-align: left;
@@ -460,7 +508,7 @@ header a{
     margin-top: -30px;
 }
 
-.subscribe-form input{
+.subscribe-form input {
     color: #000;
     border: 1px solid #000;
     margin: 5px 0;
@@ -468,17 +516,17 @@ header a{
     line-height: 24px;
 }
 
-.subscribe-form #email{
+.subscribe-form #email {
     width: 100%;
 }
 
-#trailprefs{
+#trailprefs {
     position: absolute;
     left: 50%;
     top: 12%;
 }
 
-#trailprefs h4{   
+#trailprefs h4 {
     text-align: center;
 }
 
@@ -507,7 +555,7 @@ header a{
     margin-top: -30px;
 }
 
-.login-form input{
+.login-form input {
     color: #000;
     border: 1px solid #000;
     margin: 5px 0;
@@ -535,31 +583,31 @@ header a{
 
 /* Footer */
 
-footer{
+footer {
     /* height: 100px; */
-        display: flex;
-        align-items: center;
-        width: 100%;
-        bottom: 0;
-        height: 10rem;
-        margin: 20px 30px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    bottom: 0;
+    height: 10rem;
+    margin: 20px 30px;
 }
 
-#footer-line{
+#footer-line {
 
     border-top: 1px solid #000;
     margin-left: 30px;
     margin-right: 30px;
 }
 
-#elevator-left{
+#elevator-left {
     width: 33%;
     float: left;
     margin-left: 30px;
     margin-top: 35px;
 }
 
-.ctabutton-right{
+.ctabutton-right {
     width: 33%;
     float: right;
     margin-right: 30px;
@@ -567,22 +615,22 @@ footer{
     margin-top: -85px;
 }
 
-.social-icons-center{
+.social-icons-center {
     width: 33%;
     margin: 0 auto;
     text-align: center;
 }
 
-#elevator-left p{
+#elevator-left p {
     width: 90%;
     line-height: 20px;
 }
 
-.social-icons-center li{
+.social-icons-center li {
     display: inline;
 }
 
-.social-icons-center i{
+.social-icons-center i {
     font-size: 250%;
     margin: 1%;
     padding: 5%;
@@ -599,29 +647,32 @@ footer{
     top: 50%;
     transform: translate(-50%, -50%);
     width: var(--arrow-plus-spacer);
-  }
-  .arrowPacman svg {
+}
+
+.arrowPacman svg {
     height: 16px;
     width: var(--arrow-width);
-  }
-  .arrowPacman svg:last-of-type {
+}
+
+.arrowPacman svg:last-of-type {
     margin-left: var(--arrow-spacer);
-  }
-  
-  .arrowPacman-clip {
+}
+
+.arrowPacman-clip {
     align-items: center;
     display: flex;
     overflow: hidden;
     transform: translateX(calc(var(--arrow-plus-spacer) * -1));
     width: calc(var(--arrow-plus-spacer) + var(--arrow-width));
-  }
-  
-  @keyframes pacman {
+}
+
+@keyframes pacman {
     to {
-      transform: translateX(0);
+        transform: translateX(0);
     }
-  }
-  button {
+}
+
+button {
     --button-background: transparent;
     --button-color: black;
     background-color: var(--button-background);
@@ -642,27 +693,33 @@ footer{
     text-decoration: none;
     transition: box-shadow 150ms cubic-bezier(0.61, 1, 0.88, 1);
     white-space: nowrap;
-  }
-  button:hover, button:focus {
+}
+
+button:hover,
+button:focus {
     box-shadow: 0 3px 7px 1px rgba(50, 50, 50, 0.25);
-  }
-  button:hover .arrowPacman-clip, button:focus .arrowPacman-clip {
+}
+
+button:hover .arrowPacman-clip,
+button:focus .arrowPacman-clip {
     animation-delay: 150ms;
     animation-duration: 0.8s;
     animation-name: pacman;
     animation-iteration-count: infinite;
     animation-timing-function: cubic-bezier(0.55, 0, 0.21, 1);
-  }
-  button.-bg-yellow {
+}
+
+button.-bg-yellow {
     --button-background: #ffb31c;
-  }
-  
-  button > span {
+}
+
+button>span {
     display: block;
     line-height: 1;
     padding-right: 1.5rem;
-  }
-  button > span:first-of-type {
+}
+
+button>span:first-of-type {
     color: white;
     line-height: 1.5;
-  }
+}
