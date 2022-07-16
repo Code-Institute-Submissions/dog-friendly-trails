@@ -208,73 +208,174 @@ header a{
     padding-left: 70px;
 }
 
-
-
 /* Trails */
 
-.trail-flex-container {
+.trail-flex-banner {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    line-height: 4rem;
+    font-size: 130%;
+    background-color: darkcyan;
+    margin: 0 30px
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 130%;
     margin: 0 30px;
   }
   
-  .trail-flex-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 20px;
-  }
-
-  .trail-flex-text {
-     display: flex;
-     justify-content: flex-start;
-     margin: 20px;
-  }
-
-  .trail-flex-image {
-    display: flex;
-    justify-content: center;
-    margin: 20px; 
- }
-
- .trail-flex-list {
-    display: flex;
-    justify-content: flex-start;
-    margin: 20px;
- }
-
- .trail-flex-list ul {
-    list-style: none;
-    line-height: 2rem;
- }
-
- .trail-flex-link {
-    display: flex;
-    justify-content: flex-start;
-    margin: 20px;
-
- }
-
-  .trail-flex-item-left {
+  .flex-item-left {
     background-color: burlywood;
     padding: 10px;
     flex: 33.3%;
- 
   }
-
-  .trail-flex-item-center {
+  
+  .flex-item-center {
     background-color: aquamarine;
     padding: 10px;
     flex: 33.3%;
   }
   
-  .trail-flex-item-right {
+  .flex-item-right {
     background-color: dodgerblue;
     padding: 10px;
     flex: 33.3%;
   }
-
   
+  .trail-flex-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 0 20px;
+    }
+  
+  .trail-flex-text {
+       display: flex;
+       justify-content: flex-start;
+       margin: 0 20px;
+    }
+   
+   .trail-flex-image {
+         display:flex;
+      flex-wrap: wrap;
+         justify-content: center;
+      align-item: baseline;
+   }
+   
+   .trail-flex-image img {
+         max-width: 100%; 
+   }
+   
+   .trail-flex-list {
+      display: flex;
+      justify-content: flex-start;
+      margin: 20px;
+   }
+   
+   .trail-flex-list ul {
+      list-style: none;
+      line-height: 2rem;
+      font-weight: 500;
+   }
+   
+   .trail-flex-link {
+      display: flex;
+      justify-content: flex-start;
+      margin: 20px;
+      font-size: 60%;
+      font-weight: 600;
+      self-align: flex-end;
+      flex-flow: row wrap
+   }
+   
+    
+  /* Responsive layout - makes a one column-layout instead of two-column layout */
+  @media (max-width: 1580px) {
+    .trail-flex-header, .trail-flex-text, .trail-flex-list ul{
+      font-size: 100%;
+    }
+  }
+  
+  @media (max-width: 1540px) {
+    .trail-flex-header, .trail-flex-text, .trail-flex-list ul {
+      font-size: 90%;
+    }
+  }
+  
+  @media (max-width: 1400px) {
+    .trail-flex-header, .trail-flex-text, .trail-flex-list ul {
+      font-size: 80%;
+    }
+  }
+  
+  @media (max-width: 1300px) {
+    .trail-flex-header, .trail-flex-text, .trail-flex-list ul {
+      font-size: 70%;
+    }
+  }
+  
+  @media (max-width: 1160px) {
+    .trail-flex-header, .trail-flex-text, .trail-flex-list ul {
+      font-size: 60%;
+    }
+  }
+  
+  @media (max-width: 1050px) {
+    .trail-flex-header, .trail-flex-text, .trail-flex-list ul {
+      font-size: 50%;
+    }
+  }
+  
+  @media (max-width: 960px) {
+    .trail-flex-header, .trail-flex-text, .trail-flex-list ul {
+      font-size: 40%;
+    }
+  }
+  
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+    .trail-flex-header, .trail-flex-text, .trail-flex-list ul, .trail-flex-link {
+      font-size: 100%;
+    }
+  }
+  
+  @media (max-width: 650px) {
+    .trail-flex-header, .trail-flex-text, .trail-flex-list ul, .trail-flex-link{
+      font-size: 90%;
+    }
+  }
+  
+  @media (max-width: 550px) {
+    .trail-flex-header, .trail-flex-text, .trail-flex-list ul, .trail-flex-link {
+      font-size: 80%;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .trail-flex-header, .trail-flex-text, .trail-flex-list ul, .trail-flex-link {
+      font-size: 70%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .trail-flex-header, .trail-flex-text, .trail-flex-list ul, .trail-flex-link {
+      font-size: 50%;
+    }
+  }
+  
+  
+  /* Smallest screensize in active use is 320 pixels wide on the iPhone 5 
+   So this media cutoff works well down to that size*/
+  @media (max-width: 360px) {
+    .trail-flex-header, .trail-flex-text, .trail-flex-list ul, .trail-flex-link {
+      font-size: 40%;
+    }
+  }
   
 /* Gallery */
 
