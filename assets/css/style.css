@@ -74,7 +74,7 @@ h2 {
     color: #000;
 }
 
-#site-flex-list a:hover {
+.site-flex-list a:hover {
     border-bottom: 1px solid #000;
 }
 
@@ -472,7 +472,6 @@ h2 {
 }
 
 .footer-flex-item-center {
-    background-color: aliceblue;
     flex: 33.3%;
     margin-left: auto;
 }
