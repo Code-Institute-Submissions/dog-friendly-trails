@@ -69,7 +69,7 @@ gallery.html               |  login.html
 
 ## Credits
 
-NavBar Some help from Love Running Project
+Flex Box thanks to w3schools and CSS Tricks
 
 Multi Line CTA Button https://keenanpayne.com/css-multi-line-buttons/
 ------
@@ -78,6 +78,14 @@ Multi Line CTA Button https://keenanpayne.com/css-multi-line-buttons/
 ------
 
 ## Future Features
+-ms flex for IE10 and ensure compatibility with older browsers
+Login Form and Password Reset
+Streamline HTML structure
+Improve css to be more efficient
+I would consider learning and using Flex grid for complete site layout
+Improve use of flexbox
+Setup a CMS like structure for Trails complete with Search and Filter options
+
 
 ------
 
