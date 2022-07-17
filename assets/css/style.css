@@ -635,6 +635,10 @@ button>span:first-of-type {
     .trail-flex-link {
         font-size: 80%;
     }
+
+    .footer-flex-item-center ul {
+        gap:50px;
+    }
 }
 
 @media (max-width: 1400px) {
@@ -654,6 +658,10 @@ button>span:first-of-type {
     .trail-flex-list ul,
     .trail-flex-link {
         font-size: 70%;
+    }
+
+    .footer-flex-item-center ul {
+        gap:40px;
     }
 }
 
@@ -686,6 +694,14 @@ button>span:first-of-type {
     .trail-flex-link {
         font-size: 55%;
     }
+
+    .footer-flex-item-left p {
+        font-size: 80%;
+    }
+
+    .footer-flex-item-center ul {
+        gap:30px;
+    }
 }
 
 @media (max-width: 1050px) {
@@ -695,6 +711,10 @@ button>span:first-of-type {
     .trail-flex-list ul,
     .trail-flex-link {
         font-size: 50%;
+    }
+
+    .footer-flex-item-center ul {
+        gap:20px;
     }
 }
 
@@ -724,10 +744,18 @@ button>span:first-of-type {
     .site-flex-list ul {
         font-size: 100%;
     }
+
+    .footer-flex-item-center ul {
+        gap:10px;
+    }
 }
 
 @media (max-width: 800px) {
     .flex-container {
+        flex-direction: column;
+    }
+
+    .footer-flex-container {
         flex-direction: column;
     }
 
@@ -737,6 +765,23 @@ button>span:first-of-type {
     .trail-flex-link, 
     .trail-flex-banner {
         font-size: 100%;
+    }
+
+    .footer-flex-item-left p {
+        margin: 30px 20px;
+        font-size: 100%;
+    }
+
+    .footer-flex-item-center {
+        margin: auto;
+    }
+
+    .footer-flex-item-center ul {
+        gap:60px;
+    }
+
+    .footer-button {
+        margin: 30px 0;
     }
 }
 
@@ -797,6 +842,10 @@ button>span:first-of-type {
     .site-flex-list ul {
         font-size: 90%;
     }
+
+    .footer-flex-item-center ul {
+        gap:40px;
+    }
 }
 
 @media (max-width: 500px) {
@@ -836,6 +885,10 @@ button>span:first-of-type {
         font-size: 80%;
     }
 
+    .footer-flex-item-center ul {
+        gap:20px;
+    }
+
 }
 
 
@@ -866,6 +919,9 @@ button>span:first-of-type {
         font-size: 40%;
     }
 
+    .footer-flex-item-center ul {
+        gap:10px;
+    }
 }
 
 /* Smallest screensize in active use is 320 pixels wide on the iPhone 5 
