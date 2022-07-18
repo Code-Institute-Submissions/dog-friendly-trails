@@ -618,6 +618,10 @@ button>span:first-of-type {
         font-size: 50%;
     }
 
+    .grid-row {
+        
+      }
+
     .footer-flex-item-center ul {
         gap:20px;
     }

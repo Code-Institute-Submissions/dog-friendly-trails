@@ -205,14 +205,14 @@
     <script>
 
     function myFunction() {
-            if validateForm(fname, 'First Name')=false {
-                return=false;
+            if (validateForm(fname, 'First Name')=false) {
+                return false;
             }
-            if validateForm(lname, 'Last Name')=false {
-                return=false;
+            if (validateForm(lname, 'Last Name')=false) {
+                return false;
             }
-            if validateForm(email, 'eMail') = false {
-                return=false;
+            if (validateForm(email, 'eMail') = false) {
+                return false;
             }
             document.getElementById("submitit").submit();
         }
