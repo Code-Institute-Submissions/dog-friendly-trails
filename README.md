@@ -85,7 +85,7 @@ Improve css to be more efficient
 I would consider learning and using Flex grid for complete site layout
 Improve use of flexbox
 Setup a CMS like structure for Trails complete with Search and Filter options
-
+A popup subscribe instead of a subscribe page
 
 ------
 
