@@ -75,7 +75,9 @@ Multi Line CTA Button https://keenanpayne.com/css-multi-line-buttons/
 
 Credit to w3schools for javascript tuition on submit and form validation on subscribe form
 
-Credit to Jess Hines for Felbox Radio ideas https://codepen.io/thekrkn/pen/KzLXLw
+Credit to Jess Hines for Flexbox Radio ideas https://codepen.io/thekrkn/pen/KzLXLw
+
+Credit to w3schools for Flexbox Repsonsive Gallery https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp
 ------
 
 
