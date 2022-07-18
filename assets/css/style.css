@@ -345,7 +345,7 @@ h2 {
   .subscribe-flex-item-right-button {
     display: flex;
     justify-content: flex-end;
-    margin: 30px 0;
+    margin-top: 30px;
   }
   
 .subscribe-button {
@@ -618,10 +618,6 @@ button>span:first-of-type {
         font-size: 50%;
     }
 
-    .grid-row {
-        
-      }
-
     .footer-flex-item-center ul {
         gap:20px;
     }
@@ -643,6 +639,11 @@ button>span:first-of-type {
     .site-flex-list ul {
         font-size: 120%;
     }
+
+    .subscribe-flex-item-right {
+        margin-left: 10px
+      }
+
 }
 
 @media (max-width: 850px) {
@@ -671,6 +672,15 @@ button>span:first-of-type {
     .ethos-flex-item-left-smiling {
         margin-top: 30px;
     }
+
+    .subscribe-flex-item-right {
+        margin-left: auto;
+      }
+    
+      .subscribe-flex-item-right h2 {
+        display: flex;
+        justify-content: center;
+      }
 
     .footer-flex-container {
         flex-direction: column;
