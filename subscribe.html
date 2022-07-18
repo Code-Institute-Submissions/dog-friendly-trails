@@ -74,7 +74,7 @@
                     banned from Blue Flag beaches for example.</p>
             </div>
             <div class="subscribe-flex-item-right">
-                <form method="POST" action="https://formdump.codeinstitute.net/" class="subscribe-form">
+                <form name="submitform" method="POST" action="https://formdump.codeinstitute.net/" id="submitit" class="subscribe-form">
                     <h2>Please subscribe to contribute! <i class="far fa-bell"></i></h2>
                     <label for="fname">First Name</label><br>
                     <input class="text-input" id="fname" name="first_name" type="text" required><br>
@@ -108,7 +108,7 @@
                         our information up to date.</h4>
                     <div class="subscribe-flex-item-right-button">
                         <div class="footer-button">
-                            <a href="subscribe.html">
+                            <a href="#" onclick="myFunction()">
                                 <button class="-bg-yellow">
                                     <span>Tell Us About Your Hike</span>
                                     <span>Click Here to Subscribe</span>
@@ -201,6 +201,25 @@
             </div>
         </div>
     </footer>
+
+    <script>
+
+    function myFunction() {
+            validateForm(fname);
+            validateForm(lname);
+            validateForm(email);
+            document.getElementById("submitit").submit();
+        }
+
+    function validateForm(formitem) {
+            let x = formitem.value;
+            if (x == "") {
+                alert("Please fill out this field");
+                return false;
+            }
+        }
+
+    </script>
 
     <!-- Font awesome script -->
     <script src="https://kit.fontawesome.com/b83175b9a4.js" crossorigin="anonymous"></script>
