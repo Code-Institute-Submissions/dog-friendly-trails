@@ -296,6 +296,7 @@ h2 {
 .subscribe-flex-item-right {
     padding: 10px;
     flex: 66.6%;
+    margin-left: 150px;
 }
 
 .subscribe-flex-item-right h2 {

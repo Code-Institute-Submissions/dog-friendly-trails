@@ -89,7 +89,7 @@
                         <legend>Trail Preferences</legend>
                         <div class="wrapper">
                             <div class="grid-row">
-                                <input type="radio" id="alltrails" name="area_preference" value="alltrails" required>
+                                <input type="radio" id="alltrails" name="area_preference" value="alltrails" required checked="checked">
                                 <label for="alltrails">All</label>
                                 <input type="radio" id="munster" name="area_preference" value="munster" required>
                                 <label for="munster">Munster</label>
@@ -205,16 +205,21 @@
     <script>
 
     function myFunction() {
-            validateForm(fname);
-            validateForm(lname);
-            validateForm(email);
+            if validateForm(fname, 'First Name')=false {
+                return=false;
+            }
+            if validateForm(lname, 'Last Name')=false {
+                return=false;
+            }
+            if validateForm(email, 'eMail') = false {
+                return=false;
+            }
             document.getElementById("submitit").submit();
         }
 
-    function validateForm(formitem) {
+    function validateForm(formitem, strField) {
             let x = formitem.value;
             if (x == "") {
-                alert("Please fill out this field");
                 return false;
             }
         }

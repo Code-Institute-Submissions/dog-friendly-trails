@@ -69,9 +69,13 @@ gallery.html               |  login.html
 
 ## Credits
 
-Flex Box thanks to w3schools and CSS Tricks
+Flex Box Tuition thanks to w3schools and CSS Tricks
 
 Multi Line CTA Button https://keenanpayne.com/css-multi-line-buttons/
+
+Credit to w3schools for javascript tuition on submit and form validation on subscribe form
+
+Credit to Jess Hines for Felbox Radio ideas https://codepen.io/thekrkn/pen/KzLXLw
 ------
 
 
