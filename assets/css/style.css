@@ -114,35 +114,6 @@ h2 {
     letter-spacing: 4px;
 }
 
-#hero-image-outer {
-    height: 700px;
-    overflow: visible;
-}
-
-#hero-image {
-    height: 600px;
-    width: 95.2%;
-    background: url("../images/tree-forest-walking.png") no-repeat center center;
-    z-index: 1;
-    margin-top: -100px;
-    /* Animates zoom effect on loading the page  */
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-}
-
-/* Creates the level of zoom for hero image */
-@keyframes hero-zoom {
-    from {
-        transform: scale(1);
-    }
-
-    to {
-        transform: scale(1.1);
-    }
-}
-
-
 /* Hiking Ethos */
 
 .ethos-flex-container {
