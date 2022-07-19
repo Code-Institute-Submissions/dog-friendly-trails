@@ -308,6 +308,10 @@ h2 {
     color: #000;
 }
 
+.ethos-flex-item-left-header audio {
+    margin-top: 30px;
+}
+
 /* Form Subscribe*/
 .subscribe-flex-item-right-form {
     color: #000;
