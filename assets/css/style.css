@@ -919,6 +919,11 @@ button>span:first-of-type {
         font-size: 70%;
     }
 
+    .ethos-flex-item-left-header audio {
+        font-size: 90%;
+    }
+
+
 }
 
 /* Smallest screensize in active use is 320 pixels wide on the iPhone 5 
