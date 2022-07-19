@@ -696,6 +696,10 @@ button>span:first-of-type {
         justify-content: center;
     }
 
+    .subscribe-form input {
+        width: 100%;
+    }
+
     .footer-flex-container {
         flex-direction: column;
     }
@@ -796,6 +800,11 @@ button>span:first-of-type {
 
     .hero-flex-text {
         font-size: 100%;
+    }
+
+    .grid-row {
+        display: flex;
+        flex-direction: column;
     }
 }
 
