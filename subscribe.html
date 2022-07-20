@@ -78,15 +78,20 @@
             <div class="subscribe-flex-item-right">
                 <form name="submitform" method="POST" action="https://formdump.codeinstitute.net/" id="submitit" class="subscribe-form">
                     <h2>Please subscribe to contribute! <i class="far fa-bell"></i></h2>
+                    <fieldset>
+                    <legend>Subscriber Details</legend>
                     <label for="fname">First Name</label><br>
-                    <input class="text-input" id="fname" name="first_name" type="text" required><br>
-
+                    <input class="text-input" id="fname" name="first_name" type="text" placeholder=" Please enter your first name" required><br>
                     <label for="lname">Last Name</label><br>
-                    <input class="text-input" id="lname" name="last_name" type="text" required><br>
-
+                    <input class="text-input" id="lname" name="last_name" type="text" placeholder=" Please enter your last name" required><br>                   
+                    </fieldset>
+                    <fieldset>
+                    <legend>Subscriber Login Details</legend>
+                    <label for="username">User Name</label><br>
+                    <input class="text-input" id="username" name="user_name" type="text" placeholder=" Please enter a user name" required><br>
                     <label for="email">Email Address</label><br>
-                    <input class="text-input" id="email" name="email_address" type="email" required><br>
-
+                    <input class="text-input" id="email" name="email_address" type="email" placeholder=" Please enter your email address" required><br>
+                    </fieldset>
                     <fieldset>
                         <legend>Trail Preferences</legend>
                         <div class="wrapper">
