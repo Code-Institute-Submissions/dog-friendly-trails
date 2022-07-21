@@ -379,11 +379,14 @@ legend {
 
 .footer-flex-item-center {
     flex: 33.3%;
-    margin-left: auto;
 }
 
 .footer-flex-item-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
     flex: 33.3%;
+
 }
 
 .footer-flex-item-left p {
