@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    
+
     <header>
         <div class="site-flex-container">
             <div class="site-flex-logo">
@@ -40,7 +40,8 @@
                             <a href="gallery.html" aria-label="Jump to the Gallery Page">Gallery</a>
                         </li>
                         <li>
-                            <a href="subscribe.html" aria-label="Jump to the Subscribe Page" class="active">Subscribe</a>
+                            <a href="subscribe.html" aria-label="Jump to the Subscribe Page"
+                                class="active">Subscribe</a>
                         </li>
                     </ul>
                 </div>
@@ -48,95 +49,103 @@
         </div>
     </header>
 
-    <section id="hero section">
-        <div class="hero-flex-container">
-            <div class="hero-flex-image">
-            </div>
-            <div class="hero-flex-text">
-                <a href="subscribe.html" aria-label= "Jump to the Subscribe Page">
-                    <h2>Dog Friendly Trails</h2>
-                    <h3>Subscribe Now!</h3>
-                </a>
-            </div>
-        </div>
-    </section>
+    <main>
 
-    <section id="subscribe-ethos">
-        <div class="ethos-flex-container">
-            <div class="ethos-flex-item-left">
-                <div class="ethos-flex-item-left-smiling">
-                    <h3>Just look at the smile on this guy</h3>
-                    <img src="assets/images/smiling-dog-small.png" alt="picture of dog running with a happy smile">
+        <section id="hero section">
+            <div class="hero-flex-container">
+                <div class="hero-flex-image">
                 </div>
-                <div class="ethos-flex-item-left-header">
-                    <h2>WHY LEAVE POOCH AT HOME?</h2>
-                    <audio src="https://codeinstitute.s3.amazonaws.com/HTMLEssentials/kid-laughing.mp3" controls>
-                        <span>Your browser doesn't support HTML5 audio:</span>
-                        <a href="https://codeinstitute.s3.amazonaws.com/HTMLEssentials/kid-laughing.mp3">Link to the
-                            audio</a>
-                    </audio>
+                <div class="hero-flex-text">
+                    <a href="subscribe.html" aria-label="Jump to the Subscribe Page">
+                        <h2>Dog Friendly Trails</h2>
+                        <h3>Subscribe Now!</h3>
+                    </a>
                 </div>
-                <h4>Play the audio piece above to hear from one of our subscribers.</h4>
             </div>
-            <div class="subscribe-flex-item-right">
-                <form name="submitform" method="POST" action="https://formdump.codeinstitute.net/" id="submitit"
-                    class="subscribe-form">
-                    <h2>Please subscribe to contribute! <i class="far fa-bell"></i></h2>
-                    <fieldset>
-                        <legend>Subscriber Details</legend>
-                        <label for="fname">First Name</label><br>
-                        <input class="text-input" id="fname" name="first_name" type="text"
-                            placeholder="Please enter your first name" required><br>
-                        <label for="lname">Last Name</label><br>
-                        <input class="text-input" id="lname" name="last_name" type="text"
-                            placeholder="Please enter your last name" required><br>
-                    </fieldset>
-                    <fieldset>
-                        <legend>Subscriber Login Details</legend>
-                        <label for="username">User Name</label><br>
-                        <input class="text-input" id="username" name="user_name" type="text"
-                            placeholder="Please enter a user name" autocomplete="off" required><br>
-                        <label for="email">Email Address</label><br>
-                        <input class="text-input" id="email" name="email_address" type="email"
-                            placeholder="Please enter your email address" required><br>
-                    </fieldset>
-                    <fieldset>
-                        <legend>Please Select Your Trail Preference</legend>
-                        <div class="wrapper">
-                            <div class="grid-row">
-                                <input type="radio" id="alltrails" name="area_preference" aria-describedby="all irish provinces" value="alltrails" required
-                                    checked="checked">
-                                <label for="alltrails">All</label>
-                                <input type="radio" id="munster" name="area_preference" aria-describedby="region munster" value="munster" required>
-                                <label for="munster">Munster</label>
-                                <input type="radio" id="leinster" name="area_preference" aria-describedby="region leinster" value="leinster" required>
-                                <label for="leinster">Leinster</label>
-                                <input type="radio" id="connaught" name="area_preference" aria-describedby="region connaught" value="connaught" required>
-                                <label for="connaught">Connaught</label>
-                                <input type="radio" id="ulster" name="area_preference" aria-describedby="region ulsterr" value="ulster" required>
-                                <label for="ulster">Ulster</label>
+        </section>
+
+        <section id="subscribe-ethos">
+            <div class="ethos-flex-container">
+                <div class="ethos-flex-item-left">
+                    <div class="ethos-flex-item-left-smiling">
+                        <h3>Just look at the smile on this guy</h3>
+                        <img src="assets/images/smiling-dog-small.png" alt="picture of dog running with a happy smile">
+                    </div>
+                    <div class="ethos-flex-item-left-header">
+                        <h2>WHY LEAVE POOCH AT HOME?</h2>
+                        <audio src="https://codeinstitute.s3.amazonaws.com/HTMLEssentials/kid-laughing.mp3" controls>
+                            <span>Your browser doesn't support HTML5 audio:</span>
+                            <a href="https://codeinstitute.s3.amazonaws.com/HTMLEssentials/kid-laughing.mp3">Link to the
+                                audio</a>
+                        </audio>
+                    </div>
+                    <h4>Play the audio piece above to hear from one of our subscribers.</h4>
+                </div>
+                <div class="subscribe-flex-item-right">
+                    <form name="submitform" method="POST" action="https://formdump.codeinstitute.net/" id="submitit"
+                        class="subscribe-form">
+                        <h2>Please subscribe to contribute! <i class="far fa-bell"></i></h2>
+                        <fieldset>
+                            <legend>Subscriber Details</legend>
+                            <label for="fname">First Name</label><br>
+                            <input class="text-input" id="fname" name="first_name" type="text"
+                                placeholder="Please enter your first name" required><br>
+                            <label for="lname">Last Name</label><br>
+                            <input class="text-input" id="lname" name="last_name" type="text"
+                                placeholder="Please enter your last name" required><br>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Subscriber Login Details</legend>
+                            <label for="username">User Name</label><br>
+                            <input class="text-input" id="username" name="user_name" type="text"
+                                placeholder="Please enter a user name" autocomplete="off" required><br>
+                            <label for="email">Email Address</label><br>
+                            <input class="text-input" id="email" name="email_address" type="email"
+                                placeholder="Please enter your email address" required><br>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Please Select Your Trail Preference</legend>
+                            <div class="wrapper">
+                                <div class="grid-row">
+                                    <input type="radio" id="alltrails" name="area_preference"
+                                        aria-describedby="all irish provinces" value="alltrails" required
+                                        checked="checked">
+                                    <label for="alltrails">All</label>
+                                    <input type="radio" id="munster" name="area_preference"
+                                        aria-describedby="region munster" value="munster" required>
+                                    <label for="munster">Munster</label>
+                                    <input type="radio" id="leinster" name="area_preference"
+                                        aria-describedby="region leinster" value="leinster" required>
+                                    <label for="leinster">Leinster</label>
+                                    <input type="radio" id="connaught" name="area_preference"
+                                        aria-describedby="region connaught" value="connaught" required>
+                                    <label for="connaught">Connaught</label>
+                                    <input type="radio" id="ulster" name="area_preference"
+                                        aria-describedby="region ulsterr" value="ulster" required>
+                                    <label for="ulster">Ulster</label>
+                                </div>
                             </div>
-                        </div>
-                    </fieldset>
+                        </fieldset>
 
-                    <h4>Please Note: Our subscribers get access to all our trails and of course are invaluable in
-                        keeping
-                        our information up to date.</h4>
-                    <div class="subscribe-flex-item-right-button">
-                        <div class="subscribe-button">                          
+                        <h4>Please Note: Our subscribers get access to all our trails and of course are invaluable in
+                            keeping
+                            our information up to date.</h4>
+                        <div class="subscribe-flex-item-right-button">
+                            <div class="subscribe-button">
                                 <button class="-bg-yellow">
                                     <a href="#" onclick="myFunction()">
-                                    Click Here to Subscribe
-                                </a>
-                                </button>                            
+                                        Click Here to Subscribe
+                                    </a>
+                                </button>
+                            </div>
                         </div>
-                    </div>
-                </form>
+                    </form>
+                </div>
             </div>
-        </div>
-        </div>
-    </section>
+            </div>
+        </section>
 
+    </main>
     <footer>
         <div class="footer-flex-container">
             <div class="footer-flex-item-left">
@@ -147,20 +156,20 @@
             <div class="footer-flex-item-center">
                 <ul>
                     <li>
-                        <a href="https://www.facebook.com" aria-label="Go to our facebook page (opens in new tab)" target="_blank" rel="noopener"><i
-                                class="fab fa-facebook"></i></a>
+                        <a href="https://www.facebook.com" aria-label="Go to our facebook page (opens in new tab)"
+                            target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a>
                     </li>
                     <li>
-                        <a href="https://www.twitter.com" aria-label="Go to our twitter page (opens in new tab)" target="_blank" rel="noopener"><i
-                                class="fab fa-twitter-square"></i></a>
+                        <a href="https://www.twitter.com" aria-label="Go to our twitter page (opens in new tab)"
+                            target="_blank" rel="noopener"><i class="fab fa-twitter-square"></i></a>
                     </li>
                     <li>
-                        <a href="https://www.instagram.com" aria-label="Go to our instagram page (opens in new tab)" target="_blank" rel="noopener"><i
-                                class="fab fa-instagram"></i></a>
+                        <a href="https://www.instagram.com" aria-label="Go to our instagram page (opens in new tab)"
+                            target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
                     </li>
                     <li>
-                        <a href="https://ie.linkedin.com/" aria-label="Go to our facebook channel (opens in new tab)" target="_blank" rel="noopener"><i
-                                class="fab fa-linkedin"></i></a>
+                        <a href="https://ie.linkedin.com/" aria-label="Go to our facebook channel (opens in new tab)"
+                            target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
                     </li>
                     <li>
                         <a href="https://www.youtube.com" target="_blank" rel="noopener"><i
@@ -169,7 +178,7 @@
                 </ul>
             </div>
             <div class="footer-flex-item-right">
-                
+
             </div>
         </div>
     </footer>
