@@ -359,17 +359,8 @@ legend {
 }
 
 .subscribe-button {
-    border-radius: 2px;
-    padding: 15px 32px 15px 32px;
-    font-size: 100%;
-    background-color: #ffb31c;
-    color: #000;
-    display: block;
-    max-width: fit-content;
-}
-
-.subscribe-button:hover {
-    background-color: rgba(50, 50, 50, 0.25);
+    display: flex;
+    justify-content: flex-end;
 }
 
 /* Footer */
@@ -423,40 +414,6 @@ legend {
     justify-content: flex-end;
 }
 
-.arrowPacman {
-    --arrow-width: 20px;
-    --arrow-spacer: 4px;
-    --arrow-plus-spacer: calc(var(--arrow-width) + var(--arrow-spacer));
-    overflow: hidden;
-    position: absolute;
-    right: -0.2em;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: var(--arrow-plus-spacer);
-}
-
-.arrowPacman svg {
-    height: 16px;
-    width: var(--arrow-width);
-}
-
-.arrowPacman svg:last-of-type {
-    margin-left: var(--arrow-spacer);
-}
-
-.arrowPacman-clip {
-    align-items: center;
-    display: flex;
-    overflow: hidden;
-    transform: translateX(calc(var(--arrow-plus-spacer) * -1));
-    width: calc(var(--arrow-plus-spacer) + var(--arrow-width));
-}
-
-@keyframes pacman {
-    to {
-        transform: translateX(0);
-    }
-}
 
 button {
     --button-background: transparent;
@@ -486,28 +443,8 @@ button:focus {
     box-shadow: 0 3px 7px 1px rgba(50, 50, 50, 0.25);
 }
 
-button:hover .arrowPacman-clip,
-button:focus .arrowPacman-clip {
-    animation-delay: 150ms;
-    animation-duration: 0.8s;
-    animation-name: pacman;
-    animation-iteration-count: infinite;
-    animation-timing-function: cubic-bezier(0.55, 0, 0.21, 1);
-}
-
 button.-bg-yellow {
     --button-background: #ffb31c;
-}
-
-button>span {
-    display: block;
-    line-height: 1;
-    padding-right: 1.5rem;
-}
-
-button>span:first-of-type {
-    color: white;
-    line-height: 1.5;
 }
 
 /* Responsive layout - makes a one column-layout instead of three-column layout */
