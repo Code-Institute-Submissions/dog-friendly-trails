@@ -356,11 +356,6 @@ legend {
     margin-top: 30px;
 }
 
-.subscribe-button {
-    display: flex;
-    justify-content: flex-end;
-}
-
 /* Footer */
 
 .footer-flex-container {
