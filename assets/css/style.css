@@ -61,7 +61,7 @@ h2 {
     color: #000;
 }
 
-.site-flex-list ul {
+/* .site-flex-list ul {
     display: flex;
     flex-direction: row;
     list-style: none;
@@ -81,7 +81,7 @@ h2 {
 
 .active {
     border-bottom: 1px solid #000;
-}
+} */
 
 /*Hero Image */
 
