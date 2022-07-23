@@ -739,7 +739,7 @@ input[type=submit] {
         height: 4px;
         width: 100%;
         border-radius: 10px;
-        background: #333;
+        background:#333;
       }
     
       .navbar-container .hamburger-lines .line1 {
@@ -757,7 +757,7 @@ input[type=submit] {
       }
     
       .navbar .menu-items {
-        padding-top: 100px;
+        padding-top: 120px;
         background: #fff;
         height: 100vh;
         max-width:300px;
@@ -776,7 +776,7 @@ input[type=submit] {
         font-size: 1.3rem;
         font-weight: 500;
       }
-    
+
       .site-flex-logo {
         position: absolute;
         top: 5px;
