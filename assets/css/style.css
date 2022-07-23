@@ -676,6 +676,12 @@ max-width: fit-content;
     }
 }
 
+@media (max-width: 768px) {
+    .navbar {
+      opacity: 0.95;
+    }
+}
+
 @media (max-width: 750px) {
     .site-flex-header {
         font-size: 180%;
