@@ -687,8 +687,8 @@ max-width: fit-content;
     }
 
     /* Show the Hamburger */
-    .navbar-container input[type="checkbox"],
-  .navbar-container .hamburger-lines {
+    .site-flex-list input[type="checkbox"],
+  .site-flex-list .hamburger-lines {
     display: block;
   }
 
