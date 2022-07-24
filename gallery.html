@@ -55,38 +55,250 @@
     </header>
 
     <main>
-        <section id="gallery">
-            <div class="ethos-flex-container">
+
+        <section id="gallery-section">
+            <div id="thumbnail-gallery-container">
                 <div class="row">
-                    <div class="column">                     
-                        <img src="assets/images/dog-in-river.jpg" style="width:100%">
-                        <img src="assets/images/snow-road.jpg" style="width:100%">
-                        <img src="assets/images/boy-with-dog.jpg" style="width:100%">
-                        <img src="assets/images/two-dogs.jpg" style="width:100%">
+                    <div class="column">  
+                        <a class="thumbnail" href="#lightbox-image-1"><img class="thumbnail-image" src="assets/images/dog-in-river.jpg" alt="Picture of a dog drossing a river bed." /></a>
+                        <a class="thumbnail" href="#lightbox-image-2"><img class="thumbnail-image" src="assets/images/snow-road.jpg" alt="Picture of a dog running on a snowy track." /></a>   
+                        <a class="thumbnail" href="#lightbox-image-3"><img class="thumbnail-image" src="assets/images/boy-with-dog.jpg" alt="Picture of a teenage boy with his dog." /></a>   
+                        <a class="thumbnail" href="#lightbox-image-4"><img class="thumbnail-image" src="assets/images/two-dogs.jpg" alt="Picture of a two dogs running on grass." /></a>                     
                         
                     </div>
                     <div class="column">
-                        <img src="assets/images/sitting-dog.jpg" style="width:100%">
-                        <img src="assets/images/bridge.jpg" style="width:100%">
-                        <img src="assets/images/crossingtree.jpg" style="width:100%">
-                        <img src="assets/images/dolmen.jpg" style="width:100%">
-                        <img src="assets/images/three-dogs.jpg" style="width:100%">
+                        <a class="thumbnail" href="#lightbox-image-5"><img class="thumbnail-image" src="assets/images/sitting-dog.jpg" alt="Picture of a dog sitting waiting for his owner to catch up." /></a>
+                        <a class="thumbnail" href="#lightbox-image-6"><img class="thumbnail-image" src="assets/images/bridge.jpg" alt="Picture of two dogs one is crossing a bridge the other is in the riverbed." /></a>
+                        <a class="thumbnail" href="#lightbox-image-7"><img class="thumbnail-image" src="assets/images/crossingtree.jpg" alt="Picture of a man and his dog crossing a fallen tree." /></a>
+                        <a class="thumbnail" href="#lightbox-image-8"><img class="thumbnail-image" src="assets/images/dolmen.jpg" alt="Picture of a man standing on a dolmen with his two dogs running at the base of the dolmen." /></a>
+                        <a class="thumbnail" href="#lightbox-image-9"><img class="thumbnail-image" src="assets/images/three-dogs.jpg" alt="Picture of a man drinking coffee feeding his three dogs some scraps." /></a>
                         
                     </div>
                     <div class="column">
-                        <img src="assets/images/dog-at-evening.jpg" style="width:100%">
-                        <img src="assets/images/dog-at-heel.jpg" style="width:100%">
-                        <img src="assets/images/tree-stump.jpg" style="width:100%">
-                        <img src="assets/images/femalegravelpath.webp" style="width:100%">                       
-                        <img src="assets/images/smalldog.jpg" style="width:100%">
+                        <a class="thumbnail" href="#lightbox-image-10"><img class="thumbnail-image" src="assets/images/dog-at-evening.jpg" alt="Picture of a dog on a trail looking at the sun shining through the trees." /></a>
+                        <a class="thumbnail" href="#lightbox-image-11"><img class="thumbnail-image" src="assets/images/dog-at-heel.jpg" alt="Picture of a man walking through the woods with his dog at his heel." /></a>
+                        <a class="thumbnail" href="#lightbox-image-12"><img class="thumbnail-image" src="assets/images/tree-stump.jpg" alt="Picture of a dog on a tree stump looking at the sun shining through the trees." /></a>
+                        <a class="thumbnail" href="#lightbox-image-13"><img class="thumbnail-image" src="assets/images/femalegravelpath.webp" alt="Picture of a woman running on a trail with her dog running beside her." /></a>
+                        <a class="thumbnail" href="#lightbox-image-14"><img class="thumbnail-image" src="assets/images/smalldog.jpg" alt="Picture of a couple walking with their small dog on a trail." /></a>
                     </div>
                     <div class="column">
-                        <img src="assets/images/mountain.jpg" style="width:100%">
-                        <img src="assets/images/ladyndogrunning.jpg" style="width:100%">
-                        <img src="assets/images/fairy-tree.jpg" style="width:100%">
+                        <a class="thumbnail" href="#lightbox-image-15"><img class="thumbnail-image" src="assets/images/mountain.jpg" alt="Picture of a family with their dogs walking on Knocknarea." /></a>
+                        <a class="thumbnail" href="#lightbox-image-16"><img class="thumbnail-image" src="assets/images/dog-barking.jpg" alt="Picture of a dog barking walking down a trail." /></a>
+                        <a class="thumbnail" href="#lightbox-image-17"><img class="thumbnail-image" src="assets/images/fairy-tree.jpg" alt="Picture of a dog standing at a tree decorated as a fairy house." /></a>
                     </div>
                 </div>
             </div>
+        </section>
+
+        <section lightbox>
+            <!--- Lightbox overlay. Below content is hidden until :target activated --->
+
+     <div class="lightbox-overlay" id="lightbox-image-1">
+		<div class="lightbox-content">
+
+			<a class="close" href="#gallery-section"></a>
+
+			<img class="lightbox-image" src="assets/images/dog-in-river.jpg" alt="Picture of a dog drossing a river bed." />
+
+
+		    <p class="lightbox-navigation"><a class="next" href="#lightbox-image-2">Next</a></p>
+		</div><!-- lightbox-content -->
+    </div><!--- lightbox-overlay --->
+		
+
+	<div class="lightbox-overlay" id="lightbox-image-2">
+
+		<div class="lightbox-content">
+
+			<a class="close" href="#gallery-section"></a>
+
+
+			<img class="lightbox-image" src="assets/images/snow-road.jpg" alt="Picture of a dog running on a snowy track." />
+
+		    <p class="lightbox-navigation"><a class="back" href="#lightbox-image-1">Back</a><a class="next" href="#lightbox-image-3">Next</a></p>
+
+		</div><!-- lightbox-content -->
+    </div><!--- lightbox-overlay --->
+
+    <div class="lightbox-overlay" id="lightbox-image-3">
+		<div class="lightbox-content">
+
+			<a class="close" href="#gallery-section"></a>
+
+
+			<img class="lightbox-image" src="assets/images/boy-with-dog.jpg" alt="Picture of a teenage boy with his dog." />
+			
+      <p class="lightbox-navigation"><a class="back" href="#lightbox-image-2">Back</a><a class="next" href="#lightbox-image-4">Next</a></p>
+
+		</div><!-- lightbox-content -->
+	</div><!--- lightbox-overlay --->
+
+	<div class="lightbox-overlay" id="lightbox-image-4">
+		<div class="lightbox-content">
+
+			<a class="close" href="#gallery-section"></a>
+
+			<img class="lightbox-image" src="assets/images/two-dogs.jpg" alt="Picture of a two dogs running on grass." />
+			
+			<p class="lightbox-navigation"><a class="back" href="#lightbox-image-3">Back</a><a class="next" href="#lightbox-image-5">Next</a></p>
+		</div><!-- lightbox-content -->
+    </div><!--- lightbox-overlay --->
+
+    <div class="lightbox-overlay" id="lightbox-image-5">
+		<div class="lightbox-content">
+
+			<a class="close" href="#gallery-section"></a>
+
+			<img class="lightbox-image" src="assets/images/sitting-dog.jpg" alt="Picture of a dog sitting waiting for his owner to catch up." />
+	
+
+			<p class="lightbox-navigation"><a class="back" href="#lightbox-image-4">Back</a><a class="next" href="#lightbox-image-6">Next</a></p>
+		</div><!-- lightbox-content -->
+    </div><!--- lightbox-overlay --->
+
+    <div class="lightbox-overlay" id="lightbox-image-6">
+		<div class="lightbox-content">
+
+			<a class="close" href="#gallery-section"></a>
+
+			<img class="lightbox-image" src="assets/images/bridge.jpg" alt="Picture of two dogs one is crossing a bridge the other is in the riverbed." />
+	
+
+			<p class="lightbox-navigation"><a class="back" href="#lightbox-image-5">Back</a><a class="next" href="#lightbox-image-7">Next</a></p>
+		</div><!-- lightbox-content -->
+    </div><!--- lightbox-overlay --->
+
+    <div class="lightbox-overlay" id="lightbox-image-7">
+		<div class="lightbox-content">
+
+			<a class="close" href="#gallery-section"></a>
+
+			<img class="lightbox-image" src="assets/images/crossingtree.jpg" alt="Picture of a man and his dog crossing a fallen tree." />
+	
+
+			<p class="lightbox-navigation"><a class="back" href="#lightbox-image-6">Back</a><a class="next" href="#lightbox-image-8">Next</a></p>
+		</div><!-- lightbox-content -->
+    </div><!--- lightbox-overlay --->
+
+    <div class="lightbox-overlay" id="lightbox-image-8">
+		<div class="lightbox-content">
+
+			<a class="close" href="#gallery-section"></a>
+
+			<img class="lightbox-image" src="assets/images/dolmen.jpg" alt="Picture of a man standing on a dolmen with his two dogs running at the base of the dolmen." />
+	
+
+			<p class="lightbox-navigation"><a class="back" href="#lightbox-image-7">Back</a><a class="next" href="#lightbox-image-9">Next</a></p>
+		</div><!-- lightbox-content -->
+    </div><!--- lightbox-overlay --->
+
+    <div class="lightbox-overlay" id="lightbox-image-9">
+		<div class="lightbox-content">
+
+			<a class="close" href="#gallery-section"></a>
+
+			<img class="lightbox-image" src="assets/images/three-dogs.jpg" alt="Picture of a man drinking coffee feeding his three dogs some scraps." />
+	
+
+			<p class="lightbox-navigation"><a class="back" href="#lightbox-image-8">Back</a><a class="next" href="#lightbox-image-10">Next</a></p>
+		</div><!-- lightbox-content -->
+    </div><!--- lightbox-overlay --->
+
+    <div class="lightbox-overlay" id="lightbox-image-10">
+		<div class="lightbox-content">
+
+			<a class="close" href="#gallery-section"></a>
+
+			<img class="lightbox-image" src="assets/images/dog-at-evening.jpg" alt="Picture of a dog on a trail looking at the sun shining through the trees." />
+	
+
+			<p class="lightbox-navigation"><a class="back" href="#lightbox-image-9">Back</a><a class="next" href="#lightbox-image-11">Next</a></p>
+		</div><!-- lightbox-content -->
+    </div><!--- lightbox-overlay --->
+
+    <div class="lightbox-overlay" id="lightbox-image-11">
+		<div class="lightbox-content">
+
+			<a class="close" href="#gallery-section"></a>
+
+			<img class="lightbox-image" src="assets/images/dog-at-heel.jpg" alt="Picture of a man walking through the woods with his dog at his heel." />
+	
+
+			<p class="lightbox-navigation"><a class="back" href="#lightbox-image-10">Back</a><a class="next" href="#lightbox-image-12">Next</a></p>
+		</div><!-- lightbox-content -->
+    </div><!--- lightbox-overlay --->
+
+    <div class="lightbox-overlay" id="lightbox-image-12">
+		<div class="lightbox-content">
+
+			<a class="close" href="#gallery-section"></a>
+
+			<img class="lightbox-image" src="assets/images/tree-stump.jpg" alt="Picture of a dog on a tree stump looking at the sun shining through the trees." />
+	
+
+			<p class="lightbox-navigation"><a class="back" href="#lightbox-image-11">Back</a><a class="next" href="#lightbox-image-13">Next</a></p>
+		</div><!-- lightbox-content -->
+    </div><!--- lightbox-overlay --->
+
+    <div class="lightbox-overlay" id="lightbox-image-13">
+		<div class="lightbox-content">
+
+			<a class="close" href="#gallery-section"></a>
+
+			<img class="lightbox-image" src="assets/images/femalegravelpath.webp" alt="Picture of a woman running on a trail with her dog running beside her." />
+	
+
+			<p class="lightbox-navigation"><a class="back" href="#lightbox-image-12">Back</a><a class="next" href="#lightbox-image-14">Next</a></p>
+		</div><!-- lightbox-content -->
+    </div><!--- lightbox-overlay --->
+
+    <div class="lightbox-overlay" id="lightbox-image-14">
+		<div class="lightbox-content">
+
+			<a class="close" href="#gallery-section"></a>
+
+			<img class="lightbox-image" src="assets/images/smalldog.jpg" alt="Picture of a couple walking with their small dog on a trail." />
+	
+
+			<p class="lightbox-navigation"><a class="back" href="#lightbox-image-13">Back</a><a class="next" href="#lightbox-image-15">Next</a></p>
+		</div><!-- lightbox-content -->
+    </div><!--- lightbox-overlay --->
+
+    <div class="lightbox-overlay" id="lightbox-image-15">
+		<div class="lightbox-content">
+
+			<a class="close" href="#gallery-section"></a>
+
+			<img class="lightbox-image" src="assets/images/mountain.jpg" alt="Picture of a family with their dogs walking on Knocknarea." />
+	
+
+			<p class="lightbox-navigation"><a class="back" href="#lightbox-image-14">Back</a><a class="next" href="#lightbox-image-16">Next</a></p>
+		</div><!-- lightbox-content -->
+    </div><!--- lightbox-overlay --->
+
+    <div class="lightbox-overlay" id="lightbox-image-16">
+		<div class="lightbox-content">
+
+			<a class="close" href="#gallery-section"></a>
+
+			<img class="lightbox-image" src="assets/images/dog-barking.jpg" alt="Picture of a dog barking walking down a trail." />
+	
+
+			<p class="lightbox-navigation"><a class="back" href="#lightbox-image-15">Back</a><a class="next" href="#lightbox-image-17">Next</a></p>
+		</div><!-- lightbox-content -->
+    </div><!--- lightbox-overlay --->
+
+    <div class="lightbox-overlay" id="lightbox-image-17">
+		<div class="lightbox-content">
+
+			<a class="close" href="#gallery-section"></a>
+
+
+			<img class="lightbox-image" src="assets/images/fairy-tree.jpg" alt="Picture of a dog standing at a tree decorated as a fairy house." />
+
+			<p class="lightbox-navigation"><a class="next" href="#lightbox-image-16">Back</a></p>
+		</div><!-- lightbox-content -->
+    </div><!--- lightbox-overlay --->
         </section>
 
     </main>
