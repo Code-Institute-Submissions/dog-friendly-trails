@@ -580,7 +580,7 @@ input[type=submit] {
 @media (max-width: 1090px) {
 
     .trail-flex-header {
-        flex-wrap: wrap;
+        margin: auto;
     }
     
     .footer-flex-item-left p {
