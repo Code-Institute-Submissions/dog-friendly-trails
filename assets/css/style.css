@@ -582,7 +582,11 @@ input[type=submit] {
     .trail-flex-header {
         flex-wrap: wrap;
     }
-        
+    
+    .footer-flex-item-left p {
+        margin: auto;
+    }
+
     .footer-flex-item-center ul {
         gap: 20px;
     }
