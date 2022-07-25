@@ -747,17 +747,8 @@ input[type=submit] {
     }
 }
 
-
-
 @media (max-width: 600px) {
-    .site-flex-header {
-        font-size: 130%;
-    }
-
-    .site-flex-list ul {
-        font-size: 90%;
-    }
-
+   
     .column {
         -ms-flex: 100%;
         flex: 100%;
@@ -767,27 +758,12 @@ input[type=submit] {
 
 @media (max-width: 550px) {
 
-    .trail-flex-header,
-    .trail-flex-text,
-    .trail-flex-list ul,
-    .trail-flex-link {
-        font-size: 80%;
-    }
-
-    .site-flex-header {
-        font-size: 120%;
-    }
-
-    .site-flex-list ul {
-        font-size: 90%;
-    }
-
     .footer-flex-item-center ul {
         gap: 40px;
     }
 
-    .hero-flex-text {
-        font-size: 100%;
+    .hero-flex-container {
+        justify-content: flex-start;
     }
 
     .grid-row {
@@ -802,36 +778,12 @@ input[type=submit] {
     .trail-flex-text,
     .trail-flex-list ul,
     .trail-flex-link {
-        font-size: 70%;
-    }
-
-    .site-flex-header {
-        font-size: 100%;
-    }
-
-    .site-flex-list ul {
         font-size: 90%;
     }
 
 }
 
 @media (max-width: 480px) {
-
-    .trail-flex-header,
-    .trail-flex-text,
-    .trail-flex-list ul,
-    .trail-flex-link,
-    .trail-flex-banner {
-        font-size: 50%;
-    }
-
-    .site-flex-header {
-        font-size: 90%;
-    }
-
-    .site-flex-list ul {
-        font-size: 80%;
-    }
 
     .footer-flex-item-center ul {
         gap: 20px;
@@ -843,16 +795,7 @@ input[type=submit] {
 
 }
 
-
 @media (max-width: 425px) {
-
-    .site-flex-header {
-        font-size: 80%;
-    }
-
-    .site-flex-list ul {
-        font-size: 75%;
-    }
 
     .hero-flex-text {
         font-size: 60%;
@@ -861,15 +804,6 @@ input[type=submit] {
 }
 
 @media (max-width: 385px) {
-
-    .site-flex-header {
-        font-size: 73%;
-    }
-
-    .site-flex-list ul {
-        font-size: 70%;
-        margin-left: -80px;
-    }
 
     .trail-flex-banner {
         font-size: 40%;
