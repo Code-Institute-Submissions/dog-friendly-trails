@@ -594,24 +594,16 @@ input[type=submit] {
 }
 
 @media (max-width: 960px) {
-
-    .trail-flex-header,
-    .trail-flex-text,
-    .trail-flex-list ul,
-    .trail-flex-link {
-        font-size: 40%;
-    }
-
-    .site-flex-header {
-        font-size: 220%;
-    }
-
-    .site-flex-list ul {
-        font-size: 120%;
+    .trail-flex-header {
+        font-size: 65%;
     }
 
     .subscribe-flex-item-right {
         margin-left: 10px
+    }
+
+    .footer-flex-item-left p {
+        font-size: smaller;
     }
 
 }
@@ -698,6 +690,8 @@ input[type=submit] {
         margin: 30px 0;
     }
 }
+
+/* Here is where our hamburger kicks in */
 
 @media (max-width: 768px) {
 
