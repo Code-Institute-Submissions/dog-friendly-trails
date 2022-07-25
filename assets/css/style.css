@@ -512,13 +512,6 @@ input[type=submit] {
 
 @media (max-width: 1450px) {
 
-    .trail-flex-header,
-    .trail-flex-text,
-    .trail-flex-list ul,
-    .trail-flex-link {
-        font-size: 80%;
-    }
-
     .footer-flex-item-center ul {
         gap: 50px;
     }
