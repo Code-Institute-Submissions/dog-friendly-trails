@@ -265,10 +265,6 @@ h2 {
     font-weight: 500;
 }
 
-.trail-flex-video {
-    
-}
-
 .trail-flex-video iframe {
     width: 100%;
     display: flex;
@@ -575,13 +571,6 @@ input[type=submit] {
 }
 
 @media (max-width: 1160px) {
-
-    .trail-flex-header,
-    .trail-flex-text,
-    .trail-flex-list ul,
-    .trail-flex-link {
-        font-size: 55%;
-    }
 
     .footer-flex-item-left p {
         font-size: 80%;
