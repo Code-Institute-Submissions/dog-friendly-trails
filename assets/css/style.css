@@ -754,6 +754,13 @@ input[type=submit] {
         flex: 100%;
         max-width: 100%;
     }
+
+    .subscribe-flex-item-right {
+        width: 100%;
+        margin: auto;
+        padding: 0;
+    }
+
 }
 
 @media (max-width: 550px) {
@@ -795,14 +802,6 @@ input[type=submit] {
 
 }
 
-@media (max-width: 425px) {
-
-    .hero-flex-text {
-        font-size: 60%;
-    }
-
-}
-
 @media (max-width: 385px) {
 
     .trail-flex-banner {
@@ -813,30 +812,11 @@ input[type=submit] {
         gap: 10px;
     }
 
-    .hero-flex-text {
-        font-size: 50%;
-    }
-
 }
 
 /* Smallest screensize in active use is 320 pixels wide on the iPhone 5 
    So this media cutoff works well down to that size*/
 @media (max-width: 360px) {
-
-    .trail-flex-header,
-    .trail-flex-text,
-    .trail-flex-list ul,
-    .trail-flex-link {
-        font-size: 40%;
-    }
-
-    .site-flex-header {
-        font-size: 65%;
-    }
-
-    .site-flex-list ul {
-        font-size: 70%;
-    }
 
     .ethos-flex-item-left-header audio {
         width: 90%;
@@ -845,21 +825,7 @@ input[type=submit] {
 }
 
 /* Smallest screensize in active use is 320 pixels wide on the iPhone 5 
-   But this is just to manage the text size*/
-
-@media (max-width: 340px) {
-
-    .site-flex-header {
-        font-size: 59%;
-    }
-
-    .site-flex-list ul {
-        font-size: 70%;
-    }
-
-}
-
-
+  
 /* Lightbox Styles */ 
 
 .lightbox-overlay {
