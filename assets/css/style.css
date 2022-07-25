@@ -609,20 +609,20 @@ input[type=submit] {
 }
 
 @media (max-width: 850px) {
-    .site-flex-header {
-        font-size: 200%;
-    }
-
-    .site-flex-list ul {
-        font-size: 100%;
-    }
 
     .footer-flex-item-center ul {
         gap: 10px;
     }
 }
 
-@media (max-width: 800px) {
+/* Here is where our hamburger kicks in and we go single column */
+
+@media (max-width: 768px) {
+
+    .site-flex-header {
+        display:none;
+    }
+    
     .flex-container {
         flex-direction: column;
     }
@@ -635,70 +635,6 @@ input[type=submit] {
         margin-top: 30px;
     }
 
-    #gallery-section {
-        padding: 10px 10px 0px 10px;
-    }
-    #thumbnail-gallery-container {
-        padding: 0px;
-    }
-
-    .column {
-        -ms-flex: 50%;
-        flex: 50%;
-        max-width: 50%;
-    }
-
-    .subscribe-flex-item-right {
-        margin-left: auto;
-    }
-
-    .subscribe-flex-item-right h2 {
-        display: flex;
-        justify-content: center;
-    }
-
-    .subscribe-form input {
-        width: 100%;
-    }
-
-    .footer-flex-container {
-        flex-direction: column;
-    }
-
-    .trail-flex-header,
-    .trail-flex-text,
-    .trail-flex-list ul,
-    .trail-flex-link,
-    .trail-flex-banner {
-        font-size: 100%;
-    }
-
-    .footer-flex-item-left p {
-        margin: 30px 20px;
-        font-size: 100%;
-    }
-
-    .footer-flex-item-center {
-        margin: auto;
-    }
-
-    .footer-flex-item-center ul {
-        gap: 60px;
-    }
-
-    .footer-button {
-        margin: 30px 0;
-    }
-}
-
-/* Here is where our hamburger kicks in */
-
-@media (max-width: 768px) {
-
-    .site-flex-header {
-        display:none;
-    }
-    
       .navbar {
         opacity: 0.65;
         z-index: 5000;
@@ -785,7 +721,7 @@ input[type=submit] {
       .site-flex-logo {
         position: absolute;
         top: 15px;
-        right: 15px;
+        right: 20px;
         font-size: 2rem;
       }
     
@@ -804,6 +740,54 @@ input[type=submit] {
       .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
         transform: rotate(-35deg);
       }
+
+      .trail-flex-header,
+    .trail-flex-text,
+    .trail-flex-list ul,
+    .trail-flex-link,
+    .trail-flex-banner {
+        font-size: 100%;
+    }
+
+      #gallery-section {
+        padding: 10px 10px 0px 10px;
+    }
+    #thumbnail-gallery-container {
+        padding: 0px;
+    }
+
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+
+    .footer-flex-container {
+        flex-direction: column;
+    }
+
+    .footer-flex-item-left p {
+        margin: 30px 20px;
+        font-size: 100%;
+    }
+
+    .footer-flex-item-center {
+        margin: auto;
+    }
+
+    .footer-flex-item-center ul {
+        gap: 60px;
+    }
+
+    .footer-flex-item-right {
+        margin: auto;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .footer-button {
+        margin: 30px 0;
+    }
 }
 
 @media (max-width: 750px) {
