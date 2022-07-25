@@ -572,9 +572,6 @@ input[type=submit] {
 
 @media (max-width: 1160px) {
 
-    .footer-flex-item-left p {
-        font-size: 80%;
-    }
 
     .footer-flex-item-center ul {
         gap: 30px;
