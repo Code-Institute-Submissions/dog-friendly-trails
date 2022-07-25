@@ -289,8 +289,7 @@ h2 {
 #gallery-section {
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 10px;
+    justify-content: center;   
     z-index: -1;
 }
 

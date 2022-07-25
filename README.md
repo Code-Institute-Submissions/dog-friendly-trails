@@ -64,7 +64,7 @@ gallery.html               |  login.html
 
 ------
 
-
+ 
 ------
 
 ## Credits
@@ -80,10 +80,12 @@ Credit to Jess Hines for Flexbox Radio ideas https://codepen.io/thekrkn/pen/KzLX
 Credit to w3schools for Flexbox Repsonsive Gallery https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp
 
 Credit to Alvaro for css only hamburger https://codepen.io/alvarotrigo/pen/XWejzjR
+
+Credit to Verity for css only lightbox https://codepen.io/veritygriscti/pen/ExgjrOK
 ------
 
 
-------
+------ 
 
 ## Future Features
 -ms flex for IE10 and ensure compatibility with older browsers
