@@ -293,6 +293,17 @@ h2 {
     z-index: -1;
 }
 
+.row {
+    display: -ms-flexbox;
+    /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap;
+    /* IE10 */
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+
 #thumbnail-gallery-container {
     display: flex;
     flex-flow: row wrap;
@@ -320,17 +331,6 @@ img.thumbnail-image {
   object-position: center center;
   }
 
-.row {
-    display: -ms-flexbox;
-    /* IE10 */
-    display: flex;
-    -ms-flex-wrap: wrap;
-    /* IE10 */
-    flex-wrap: wrap;
-    align-items: flex-start;
-    margin-bottom: 30px;
-}
-
 /* Create four equal columns that sits next to each other */
 .column {
     -ms-flex: 25%;
@@ -339,7 +339,9 @@ img.thumbnail-image {
     max-width: 25%;
     padding: 0 4px;
     overflow: hidden;
+    
     margin: auto;
+    margin-top: 0;
 }
 
 .column img {
