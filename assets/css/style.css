@@ -338,8 +338,7 @@ img.thumbnail-image {
     flex: 25%;
     max-width: 25%;
     padding: 0 4px;
-    overflow: hidden;
-    
+    overflow: hidden;  
     margin: auto;
     margin-top: 0;
 }
@@ -1120,6 +1119,8 @@ a.close {
 .close::after {
     content: 'X';
     color: rgb(250,250,250);
+    margin-top: 10px;
+    margin-right: 20px;
 }
 
 
