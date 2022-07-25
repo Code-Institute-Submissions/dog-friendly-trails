@@ -509,21 +509,10 @@ input[type=submit] {
 
 /* Responsive layout - makes a one column-layout instead of three-column layout */
 
-
 @media (max-width: 1450px) {
 
     .footer-flex-item-center ul {
         gap: 50px;
-    }
-}
-
-@media (max-width: 1400px) {
-
-    .trail-flex-header,
-    .trail-flex-text,
-    .trail-flex-list ul,
-    .trail-flex-link {
-        font-size: 75%;
     }
 }
 
