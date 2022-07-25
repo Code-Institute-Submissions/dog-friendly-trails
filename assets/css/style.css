@@ -572,21 +572,17 @@ input[type=submit] {
 
 @media (max-width: 1160px) {
 
-
     .footer-flex-item-center ul {
         gap: 30px;
     }
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 1090px) {
 
-    .trail-flex-header,
-    .trail-flex-text,
-    .trail-flex-list ul,
-    .trail-flex-link {
-        font-size: 50%;
+    .trail-flex-header {
+        flex-wrap: wrap;
     }
-
+        
     .footer-flex-item-center ul {
         gap: 20px;
     }
