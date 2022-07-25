@@ -518,6 +518,10 @@ input[type=submit] {
 
 @media (max-width: 1300px) {
 
+    .subscribe-form input {
+        width: 100%;
+    }
+    
     .footer-flex-item-center ul {
         gap: 40px;
     }
