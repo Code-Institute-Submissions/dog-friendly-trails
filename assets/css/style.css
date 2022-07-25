@@ -266,13 +266,15 @@ h2 {
 }
 
 .trail-flex-video {
-    display: flex;
-    justify-content: center;
-    padding: 0 20px;
+    
 }
 
 .trail-flex-video iframe {
     width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+    align-items: baseline;
 }
 
 .trail-flex-link {
@@ -567,36 +569,8 @@ input[type=submit] {
 
 @media (max-width: 1300px) {
 
-    .trail-flex-header,
-    .trail-flex-text,
-    .trail-flex-list ul,
-    .trail-flex-link {
-        font-size: 70%;
-    }
-
     .footer-flex-item-center ul {
         gap: 40px;
-    }
-}
-
-@media (max-width: 1250px) {
-
-    .trail-flex-header,
-    .trail-flex-text,
-    .trail-flex-list ul,
-    .trail-flex-link {
-        font-size: 60%;
-    }
-
-    .site-flex-container {
-        display: flex;
-        flex-flow: row wrap;
-        width: 80%;
-        margin-bottom: 30px;
-    }
-
-    .site-flex-list {
-        margin-left: 97px;
     }
 }
 
