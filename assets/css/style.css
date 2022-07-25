@@ -800,6 +800,10 @@ input[type=submit] {
         font-size: 80%;
     }
 
+    fieldset {
+        padding: 10px;
+    }
+
 }
 
 @media (max-width: 385px) {
@@ -820,6 +824,10 @@ input[type=submit] {
 
     .ethos-flex-item-left-header audio {
         width: 90%;
+    }
+
+    .subscribe-form input {
+        padding: 12px 5px;
     }
 
 }
