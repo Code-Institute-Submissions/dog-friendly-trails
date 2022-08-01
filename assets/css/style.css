@@ -67,7 +67,8 @@ h2 {
     display: none;
 }
 
-#accessibilitynote {
+
+.navbar-container label {
     display: none;
 }
 
