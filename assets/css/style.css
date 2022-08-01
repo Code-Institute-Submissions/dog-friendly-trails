@@ -42,7 +42,6 @@ h2 {
     background: rgba(255, 255, 255, 0.35);
     margin: 0 30px;
     height: 100px;
-
 }
 
 .site-flex-header {
@@ -52,6 +51,7 @@ h2 {
     font-weight: 600;
     color: #000;
     margin-left: 20px;
+   
 }
 
 .site-flex-header a {
