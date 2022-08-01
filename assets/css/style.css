@@ -67,6 +67,10 @@ h2 {
     display: none;
 }
 
+#accessibilitynote {
+    display: none;
+}
+
 .navbar-container {
     flex-direction: row;
     list-style: none;
