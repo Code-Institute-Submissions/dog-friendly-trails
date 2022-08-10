@@ -51,7 +51,7 @@ h2 {
     font-weight: 600;
     color: #000;
     margin-left: 20px;
-   
+
 }
 
 .site-flex-header a {
@@ -114,7 +114,12 @@ h2 {
     flex-direction: row;
     justify-content: flex-end;
     align-items: flex-end;
-    background: url("../images/tree-forest-walking-optimized.webp") no-repeat center center;
+    background: url("../images/tree-forest-walking-optimized.webp");
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .hero-flex-image {
