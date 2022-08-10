@@ -114,7 +114,7 @@ h2 {
     flex-direction: row;
     justify-content: flex-end;
     align-items: flex-end;
-    background: url("../images/tree-forest-walking.png") no-repeat center center;
+    background: url("../images/tree-forest-walking-optimized.webp") no-repeat center center;
 }
 
 .hero-flex-image {
