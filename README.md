@@ -1,25 +1,101 @@
-![CI logo](assets/images/dogs-allowed-small.jpg)
-
-# Dog Friendly Trails
-
+# Dog Friendly Trails <img align="right" width="75" height="75" src="assets/images/dogs-allowed-logo150x150.webp">
+<br>
+<br>
 Dog Friendly Trails is a site that looks to keep up to date with the most recent rules and regulations with regard to dogs on Irish walking trails.
-
-The site will be targetted at people who like to hike Irish walking trails encouraging them to bring their dogs with them on hikes. 
-
+The site will be targetted at people of all ages who like to hike Irish walking trails encouraging them to bring their dogs with them on hikes.  
+ 
 Dog Friendly Trails will be useful for these hikers by allowing them to plan for hikes by picking out trails that are most suitable for dogs.
+Hikers are invited to subscribe to get access to all the verified dog friendly trails.  
 
-Hikers are invited to subscribe to get access to all the verified dog friendly trails.
+These verifications will be gathered by hikers submitting their experience with regard to dogs, on trails they have hiked.
 
-These verifications will be gathered by hikers submitting their experience with regard to dogs on trails they have hiked.
-
-Note to me: Add images of app on various screen sizes
-
-----
-
-## Features
+![](assets/images/responsivelook.png)
 
 ----
 
+# Features
+----
+## Site Navigation
+
+- The Logo and the site desccription are featured in the top left corner. They both link to the top of the index page called Home.
+- The navigation links to pages are situated to the right at the top of the page. The other pages are Trails, Gallery and Subscribe.
+- The navigation links are in an attractive and visually clear websafe font which change color on hover to show a contrast.
+- The navigation link that is active is underlined.
+- The font color of the navigation clearly stands out against a white background.
+- The navigation clearly shows a person browsing the site which page they are viewing and makes the site easy to browse through and find areas of interest.
+- The navigation links switch to hamburger style on smaller devices.
+
+![](assets/images/header.png)
+
+## Header
+
+- The branding of the site is consistent as this is the common header used throughout the site and is situated at the top of every page.
+- The color scheme is simple with black text on white background for contrast and clarity while the logo is also simple with a black dog symbol inside a green circle.
+- As the header includes the navigation links this also retains a consistent experience for the person browsing the site. 
+----  
+
+## Pages
+<br>
+
+### Index Page titled Home
+<br>
+
+Hero Section
+
+- The hero section shows an attractive background image of hikers with a dog, this helps to cement the message of what the site is about.
+- A CTA is included as a text overlay. This links to the subscribe page when clicked.
+- The CTA has a background color with opacity which allows the image to show through and yet aid in reading clarity.
+- The background color of the CTA also complements the green in the logo.  
+- The image of the dog smiling with a header which belongs to the ethos section is pulled up into the hero section for added visual impact. 
+
+![](assets/images/hero.png)
+<br><br>
+Ethos Section
+<br>
+The ethos section is displayed in 3 columns. These columns stack on smaller devices.
+
+Left Column
+
+- The left column shows the dog smiling image and the associated header which combined contain a positive emotional message.
+- The left column also includes a challenge statement seeking to engage the user. 
+- The left column has below the challenge statement some interesting fact statements. 
+
+![](assets/images/ethosleft.png)
+
+Center and Right Columns
+
+- The center and right columns are laid out with 4 key Why? statements.
+- These address the main reasons why it is important for users to consider bringing their dogs with them on hikes.
+
+![](assets/images/ethoscenterright.png)
+<br><br>
+
+### Trails Page
+<br>
+
+Voted trails of the week
+
+- This consists of 3 highlighted trails that are presented in 3 columns.
+- These columns stack on smaller devices.
+- Each column has a featured trail with details about that trail including a youtube video and a link to to an external site.
+
+![](assets/images/trails.png)
+<br><br>
+
+### Gallery Page
+<br>
+
+This contains images of dogs on hiking trails.
+
+- This consists of images displayed in 4 columns in masonry format.
+- The column count changes as devices get smaller.
+- On mobile phones each image is displayed one bove the other.
+- Each image has a hover effect.
+- Each image has a lightbox effect with navigation included in the lightbox display.
+
+![](assets/images/gallery.png)
+![](assets/images/lightbox.png)
+<br><br>
 
 ----
 
