@@ -14,14 +14,14 @@ These verifications will be gathered by hikers submitting their experience with 
 
 Note to me: Add images of app on various screen sizes
 
-------
+----
 
 ## Features
 
-------
+----
 
 
-------
+----
 
 ## UX/UI
 
@@ -51,7 +51,7 @@ July 22nd I implement a CSS only hamburger. See Credits for alvarotrigo. This wo
 
 July 24th I introduce CSS only lightbox. See Credits for veritygriscti
 
-------
+----
 
 ### Site Goals
 
@@ -62,31 +62,31 @@ July 24th I introduce CSS only lightbox. See Credits for veritygriscti
 ### Initial Wireframe Concept
 
 index.html                 |  trails.html
-:-------------------------:|:-------------------------:
+:-----------------:|:-----------------:
 ![](docs/wireframes/index.png)  |  ![](docs/wireframes/trailspage.png)
 
 gallery.html               |  login.html
-:-------------------------:|:-------------------------:
+:-----------------:|:-----------------:
 ![](docs/wireframes/gallerypage.png)  |  ![](docs/wireframes/loginpage.png)
 
-------
+----
 
 
-------
+----
 
 ## Testing
 
-------
+----
 
 
-------
+----
 
 ## Deployment
 
-------
+----
 
 
-------
+----
 
 ## Bug Fixes
 
@@ -103,10 +103,10 @@ Fix 58ba9b4 Fixed relative path.
 
 
 
-------
+----
 
  
-------
+----
 
 ## Credits
 
@@ -123,10 +123,10 @@ Credit to w3schools for Flexbox Repsonsive Gallery https://www.w3schools.com/how
 Credit to Alvaro for css only hamburger https://codepen.io/alvarotrigo/pen/XWejzjR
 
 Credit to Verity for css only lightbox https://codepen.io/veritygriscti/pen/ExgjrOK
-------
+----
 
 
------- 
+---- 
 
 ## Future Features
 -ms flex for IE10 and ensure compatibility with older browsers
@@ -138,7 +138,7 @@ Improve use of flexbox
 Setup a CMS like structure for Trails complete with Search and Filter options
 A popup subscribe instead of a subscribe page
 
-------
+----
 
 
-------
+----
