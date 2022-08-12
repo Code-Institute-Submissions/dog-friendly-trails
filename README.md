@@ -102,6 +102,49 @@ This contains images of dogs on hiking trails.
 ![](assets/images/lightbox.png)
 <br><br>
 
+### Subscribe Page
+<br>
+
+This page is where a user can subscribe.
+
+Hero Section
+
+This is identical to the hero section on the index.html page. (Please see index page information above)
+
+- This consists of 2 columns in 1/3 to 2/3 layout.
+- The left column has similarities to the ethos left column. (Please see ethos left column on index page above)
+- Below this is a challenge statement seeking to engage the user is an audio piece provided by a hiker.
+- Below that is a headline inviting a user to listen to the audio.
+
+![](assets/images/audio.png)
+
+- The right column has the subscription form.
+- The form is laid out in 3 distinct areas:
+    - Subscriber details
+    - Subscriber Login Details
+    - Trail Regional Preferences
+- A subscribe button is clearly visible and it's background color draws a users attention to it.
+
+![](assets/images/subscribeform.png)
+![](assets/images/subscribebutton.png)
+<br><br>
+
+----
+
+## Footer
+<br>
+The footer is used for all pages. However the subscribe page is slightly different in that the Subscribe button is omitted from the footer as it is used with the subscribe form.
+
+![](assets/images/footersubscribe.png)
+
+The footer is displayed in 3 columns.
+
+- The left column has an elevator pitch statement promoting the site.
+- The middle column contains our social media icons. These link to external social media pages.
+- The right column displays a subscribe button which links to the subscribe page.
+
+![](assets/images/footer.png)
+
 ----
 
 ## UX/UI
