@@ -31,6 +31,10 @@ Hikers are invited to subscribe to get access to all the verified dog friendly t
     - This site will assist users by building up a large selection of suitable dog friendly trails for them to pick from which can be filtered. (Note: this is planned functionality and not yet available)
 - Users need to be able to interact with each other and discuss experiences on hikes.
     - This site will assist them in that regard by providing a safe and moderated forum. (Note: this is planned functionality and not yet available)
+- Users need to be able to trust the information given to them.
+    - Because this site allows users to subscribe and populate the trails data themselves, they are somewhat of their own quality control on data. (Note: this is planned functionality and not yet available)
+- Users need to be able to find all of their required in one place.
+    - This site over time will satisfy that requirement as more and more relaible trail information is populated and updated by the subscribers.
 
 ## Site Navigation
 
@@ -231,6 +235,75 @@ Fix 00cfa73 Some css reformatting required.
 
 July 14th Due to mistakes with relative path the site when viewed on github looked wrong with the hero image missing.
 Fix 58ba9b4 Fixed relative path.
+
+July 18th Form validation javascript error.
+Fix bc31621 Fixed javascript
+
+July 21st Spacing errors in social media and a type error in the hero section.
+Fix fcf07b6 Spacing errors and typo fixed.
+
+July 21st Spacing errors on trails page.
+Fix 2b16e4e5dbef380f4f1e7a6af4a3437fce5587cc Spacing errors fixed.
+
+July 21st Font issue with roboto condensed not proper use of syntax
+Fix 1dd56159346b445ee90f27ab84e014e2c46d9248 Syntax sorted.
+
+July 21st Footer button div background flagged by w3 validator.
+Fix da51a9fe6febd809cfa2f751a498cce465a06a64 Div background changed.
+
+July 21st Submit button on subscribe form error.
+Fix 346c0eaae930b12539ffdd56452240ca05d84b1e Submit button changed.
+
+July 23rd Responsive style error at 768px.
+Fix d95b1db63be036f9ef035b3ab8c30354013f8e79 Hamburger styling changed.
+
+July 24th Active not working on all navaigaion links.
+Fix 69498a174c8037baab815540a40b6369249091d6 Active sorted.
+
+July 24th Parse error in style sheet.
+Fix 44e2697a2b3a9d793f98e204647fdf89992d1f61 Parse error fixed.
+
+July 24th css validator error background color of none is not allowed.
+Fix 05bc1f2ff0bb552c6040a4ab266cf1872f40ba48 Background is now transparent.
+
+August 1st alt on site logo is incorrect.
+Fix 621349334ae3b57a7a08558b37ebe4fef2b03e95 alt changed.
+
+August 10th href error on logo.
+Fix 9867899eee98ff6f2261ff1c88a55923bdbe7165 Fixed href on logo on all pages.
+
+August 11th Typo errors on hero section and audio on subscribe form.
+Fix 26c5c65972f311beea14dce239216f82a366b0bd Typos fixed.
+
+August 11th aria-describedby errors.
+Fix 26c5c65972f311beea14dce239216f82a366b0bd Errors fixed.
+Fix 26c5c65972f311beea14dce239216f82a366b0bd Errors Fixed.
+
+August 11th Radio input typo.
+Fix 3d5eba0f518565392cd4d068c4db59237c6f3217 Typo fixed.
+
+August 11th Typo in comments on gallery page.
+Fix bb0143d3cf97e1f47696f1383d3a63c65e82aea6 Typo fixed.
+
+August 11th aria labels issues on footer.
+Fix dfeb94bb3ce18b41701cadd66e101c7e7e7fb9f9 aria labels fixed.
+Fix 95de492e7fabc4fd17a378ab67e49b37eef2540a aria labels fixed.
+
+Ausust 11th typos in footer with regard to href.
+Fix 95de492e7fabc4fd17a378ab67e49b37eef2540a typo fixed.
+Fix 1a737936cadf2b62ecaf91772a0539869576ffb4 typo fixed.
+Fix a2bcb9c20c9520e266394eb6ddf298c9480be700 typo fixed.
+Fix 5aeb1b196f7fe4e95fe99aabb4ab5de18b1b0af4 typo fixed.
+Fix 851c02a77587329aacdbc8b85c9c9fc8cee0d046 typo fixed.
+
+August 11th typos on aria labels in footer.
+Fix b4bf39bb9f5bc81cdd58c0537c3fabf88a9d465a typo fixed.
+Fix 4bc856ed1b17308387e456063c0a9e24eab10e1a typo fixed.
+
+August 12th typos in readme.
+Fix c9d56780de488604175e08fb123e791dcd6cbf94 typo fixed.
+
+
 
 ### Unfixed Bugs
 
