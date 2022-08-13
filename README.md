@@ -260,8 +260,14 @@ A popup subscribe instead of a subscribe page
 
 ### Media
 
-- Thanks to my friend and hiking companion for most of the photos.
-- 
+- Thanks to my friend and hiking companion Ger Killilea for most of the photos.
+- Pxhere.com for the hero image.
+- Pexels for 4 of the gallery images boggyvalley, rockyriver, smallboyanddog and icyriver.
+- Thank you to https://thecurvyhiker.wordpress.com/the-canine-companions/ for the Turraun Route Loop picture.
+- Pixabay.com for Dog smiling image on ethos section.
+- Knocknarea Trail image is thanks to Pete Houghton - Wordpress.com
+- Ger Killilea for Audio piece on hiking.
+- Trail Videos are from Youtube. 
 
 ----
 
