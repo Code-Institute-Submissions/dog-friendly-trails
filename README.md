@@ -3,9 +3,9 @@
 ## Site Goals
 
 Dog Friendly Trails is a site that looks to keep up to date with the most recent rules and regulations with regard to dogs on Irish walking trails.
-The site will be targetted at people of all ages who like to hike Irish walking trails encouraging them to bring their dogs with them on hikes.      
+The site is targetted at people of all ages who like to hike Irish walking trails encouraging them to bring their dogs with them on hikes.      
 <br>
-Dog Friendly Trails will be useful for these hikers by allowing them to plan for hikes by picking out trails that are most suitable for dogs.
+Dog Friendly Trails is useful for these hikers by allowing them to plan for hikes by picking out trails that are most suitable for dogs.
 Hikers are invited to subscribe to get access to all the verified dog friendly trails. These verifications will be gathered by hikers submitting their experience with regard to dogs, on trails they have hiked.
 <br>
 <br>
@@ -15,13 +15,22 @@ Hikers are invited to subscribe to get access to all the verified dog friendly t
 
 ## Design Choices
 
-- A four page website was a preferred minimum to satisfy the user requirement as opposed to a one page scroll.
+- A four page website is a preferred minimum to satisfy the user requirement as opposed to a one page scroll.
 - A simple colour scheme is preferred with lots of white space to present a modern no nonsense site which is uncluttered clear and inviting.
 - The hero section is shared between the home page and the subscribe page. The hero image enhances the message "Bring your dog" and is eye catching and attracts the users attention on the home page and also nudges the user to commit to subscribe on the subscribe page.
 - The ethos section encourages the users to find out more about dog friendly trails and why they should bring their dogs with them on hikes.
 - The trails page provides the user with interesting information on 3 popular hikes that are dog friendly. This also gives the user an idea of what is available to them if they subscribe.
 - The gallery page provides an interesting array of pictures with dogs enjoying trails. It is anticipated that users will identify with these images and see themselves with their dogs hiking interesting trails.
-- The subscribe page is hopefully where users browsing the site will arrive at. There are CTA's in the index page and the footer leading them in that direction. Once there the subscribe form is simnple and clear for them navigate and fill in. 
+- The subscribe page is hopefully where users browsing the site will arrive at. There are CTA's in the index page and the footer leading them in that direction. Once there the subscribe form is simple and clear for them navigate and fill in. 
+
+## User Stories
+
+- Users need information in relation to their dogs and where they can hike in safety and without confrontation. 
+    - This site assists them hugely in that regard. The information a user needs is clearly laid out for them in an easy to navigate website.
+- User need to be able to check out hikes in their area or if on vacation anywhere else in Ireland.
+    - This site will assist users by building up a large selection of suitable dog friendly trails for them to pick from which can be filtered. (Note: this is planned functionality and not yet available)
+- Users need to be able to interact with each other and discuss experiences on hikes.
+    - This site will assist them in that regard by providing a safe and moderated forum. (Note: this is planned functionality and not yet available)
 
 ## Site Navigation
 
@@ -45,7 +54,7 @@ Hikers are invited to subscribe to get access to all the verified dog friendly t
 - The branding of the site is consistent as this is the common header used throughout the site and is situated at the top of every page.
 - The color scheme is simple with black text on white background for contrast and clarity while the logo is also simple with a black dog symbol inside a green circle.
 - As the header includes the navigation links this also retains a consistent experience for the person browsing the site. 
-- The header tells the user the name of the site which is Dog Friendly Trails. This is a very self explanatory site description and thus makes for a very clear information about the site and who it is intended for.
+- The header tells the user the name of the site which is Dog Friendly Trails. This is a very self explanatory site description and thus makes for very clear information about the site and who it is intended for.
 - The logo is also very helpful in providing emphasis on a positive dog image.
 ----  
 
@@ -171,9 +180,12 @@ Validator Testing
 
 - HTML:             All pages were passed through the official https://validator.w3.org/ and no errors were found.
 - CSS:              All pages were passed through the official https://jigsaw.w3.org/css-validator/ and no errors were found.
-- Accessibility:    By running the site through https://web.dev/measure/ and I got all results in the green.
+- Accessibility:    By running the site through https://web.dev/measure/ I got all results in the green.
 
 ![](assets/images/lighthouse.png)
+
+Note: Accessibility would be 100% except for the CSS only hamburger as this seems to compromise acessibility. I tested without the hamburger and the score was 100%
+
 ----
 
 ## Development Transition
@@ -207,17 +219,12 @@ gallery.html               |  login.html
 
 ----
 
-## Deployment
-
-----
-
-
-----
-
 ## Bug Fixes
 
+### Solved Bugs
+
 July 12th I discovered a problem with the Readme file in that I could not get Wireframes in PDF format to work.
-Fix 914854d So changed to images instead.
+Fix 914854d changed to images instead.
 
 July 13th Due to a typo at the top of style.css which had a ripple effect of formatting issues further down the style.css document. I had various formatting problems that needed a tidy up.
 Fix 00cfa73 Some css reformatting required.
@@ -225,49 +232,77 @@ Fix 00cfa73 Some css reformatting required.
 July 14th Due to mistakes with relative path the site when viewed on github looked wrong with the hero image missing.
 Fix 58ba9b4 Fixed relative path.
 
+### Unfixed Bugs
+
+No unfixed bugs
+
+----
+
+## Deployment
+
+The site is deployed to GitHub pages. 
+
+- In the GitHub repository under Recent Repositories select [TMartin88/dog-friendly-trails](https://github.com/TMartin88/dog-friendly-trails)
+- Then Settings.
+- Then Pages.
+- Under Build and Deployment select Deploy from a branch from the Source dropdown list.
+- Pick main and then root from the Branch selection area.
+- Now GitHub Pages displays a link to the live site.
+
+The live link to the site on GitHub is: [Dog Friendly Trails](https://tmartin88.github.io/dog-friendly-trails)
+
 ----
 
 ## Future Features
--ms flex for IE10 and ensure compatibility with older browsers
-Login Form and Password Reset
-Streamline HTML structure
-Improve css to be more efficient
-I would consider learning and using Flex grid for complete site layout
-Improve use of flexbox
-Setup a CMS like structure for Trails complete with Search and Filter options
-A popup subscribe instead of a subscribe page
+
+- To include a Login Form with Password Reset.
+- To setup a CMS like structure for Trails complete with Search and Filter options where subscribers could upload to.
+- To create a popup subscribe instead of a subscribe page.
+- Moderated forum for dog loving hikers to interact and exchange experiences.
+
+----
+
+## Performance Improvements
+
+- Replace the hamburger with an accessibilty compliant solution for a 100% accessibilty score in the lighthouse checker.
+- Aim for 100% on performance in the lighthouse checker.
+- To include ms flex for IE10 and ensure compatibility with older browsers.
+- To streamline HTML structure.
+- To improve css to be more efficient.
+- I would consider learning and using Flex grid for complete site layout.
+- To improve use of flexbox.
 
 ----
  
 ## Credits
 
-### Content
-
-- Credit to Keenan for Multi Line CTA Button https://keenanpayne.com/css-multi-line-buttons/. Actually I ended up throwing this out but I did keep the button colour.
-- Credit to Jess Hines for Flexbox Radio ideas https://codepen.io/thekrkn/pen/KzLXLw
-- Credit to w3schools for Flexbox Responsive Gallery https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp
-- Credit to Alvaro for css only hamburger https://codepen.io/alvarotrigo/pen/XWejzjR
-- Credit to Verity for css only lightbox https://codepen.io/veritygriscti/pen/ExgjrOK
-
 ### Inspiration
 
-- Credit to my great friends and companions, a Jack Russell called Luna and Buddha whose breed is unknown. "Happy trails"
+- Credit to my great friends and companions, a Jack Russell called Luna and Buddha whose breed is unknown. "Happy trails".
 
 ### Instruction
 
 - Flex Box Tuition thanks to w3schools and CSS Tricks
 - Credit to w3schools for javascript tuition on submit and form validation on subscribe form. Actually I threw out all Javascript opting for a CSS only site.
 
+### Content
+
+- Credit for Multi Line CTA Button to [Keenan] (https://keenanpayne.com/css-multi-line-buttons/) Actually I ended up throwing this out but I did keep the button colour.
+- Credit for Flexbox Radio ideas to [Jess Hines] (https://codepen.io/thekrkn/pen/KzLXLw)
+- Credit for Flexbox Responsive Gallery to [w3schools] (https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp)
+- Credit for css only hamburger to [Alvaro] (https://codepen.io/alvarotrigo/pen/XWejzjR)
+- Credit for css only lightbox to [Verity] (https://codepen.io/veritygriscti/pen/ExgjrOK)
+
 ### Media
 
 - Thanks to my friend and hiking companion Ger Killilea for most of the photos.
 - Pxhere.com for the hero image.
 - Pexels for 4 of the gallery images boggyvalley, rockyriver, smallboyanddog and icyriver.
-- Thank you to https://thecurvyhiker.wordpress.com/the-canine-companions/ for the Turraun Route Loop picture.
+- Thank you for the Turraun Route Loop picture to [The Curvy Hiker] (https://thecurvyhiker.wordpress.com/the-canine-companions/)
 - Pixabay.com for Dog smiling image on ethos section.
 - Knocknarea Trail image is thanks to Pete Houghton - Wordpress.com
 - Ger Killilea for Audio piece on hiking.
-- Trail Videos are from Youtube. 
+- Trail Videos are embeeded iframe links fro youtube.
 
 ----
 
