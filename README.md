@@ -176,11 +176,10 @@ Validator Testing
 
 - HTML:             All pages were passed through the official https://validator.w3.org/ and no errors were found.
 - CSS:              All pages were passed through the official https://jigsaw.w3.org/css-validator/ and no errors were found.
-- Accessibility:    By running the site through https://web.dev/measure/ I got all results in the green.
+- Accessibility:    By running the site through Lighthouse in Inspect on Chrome I got a perfect 100% score on Desktop and a 96% performance score on Mobile.
 
-![](assets/images/lighthouse.webp)
-
-Note: Accessibility would be 100% except for the CSS only hamburger as this seems to compromise acessibility. I tested without the hamburger and the score was 100%
+![Lighthouse Desktop](assets/images/lighthousedesktop.webp)
+![Lighthouse Mobile](assets/images/lighthouse.webp)
 
 ----
 
@@ -328,8 +327,6 @@ The live link to the site on GitHub is: [Dog Friendly Trails](https://tmartin88.
 
 ## Performance Improvements
 
-- Replace the hamburger with an accessibilty compliant solution for a 100% accessibilty score in the lighthouse checker.
-- Aim for 100% on performance in the lighthouse checker.
 - To include ms flex for IE10 and ensure compatibility with older browsers.
 - To streamline HTML structure.
 - To improve css to be more efficient.
