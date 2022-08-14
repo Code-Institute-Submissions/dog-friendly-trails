@@ -176,10 +176,12 @@ Validator Testing
 
 - HTML:             All pages were passed through the official https://validator.w3.org/ and no errors were found.
 - CSS:              All pages were passed through the official https://jigsaw.w3.org/css-validator/ and no errors were found.
-- Accessibility:    By running the site through Lighthouse in Inspect on Chrome I got a perfect 100% score on Desktop and a 96% performance score on Mobile.
+- Accessibility:    By running the site through Lighthouse in Inspect on Chrome I got the following results:
 
-![Lighthouse Desktop](assets/images/lighthousedesktop.webp)
-![Lighthouse Mobile](assets/images/lighthouse.webp)
+
+|                                Desktop                                                  |                                Mobile                                            |
+| Index               | 
+|![Lighthouse Desktop](assets/images/lighthousedesktop.webp)                              | ![Lighthouse Mobile](assets/images/lighthouse.webp)                              |
 
 ----
 

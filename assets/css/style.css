@@ -223,19 +223,19 @@ h2 {
 }
 
 .flex-item-left {
-    background-color: burlywood;
+    background-color: #cce3de;
     padding: 10px;
     flex: 33.3%;
 }
 
 .flex-item-center {
-    background-color: aquamarine;
+    background-color: #eaf4f4;
     padding: 10px;
     flex: 33.3%;
 }
 
 .flex-item-right {
-    background-color: dodgerblue;
+    background-color: #f6fff8;
     padding: 10px;
     flex: 33.3%;
 }
