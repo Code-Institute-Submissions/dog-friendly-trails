@@ -172,7 +172,6 @@ h2 {
     margin-top: -160px;
     font-style: italic;
     color: #fff;
-    /* background-color: rgba(70, 150, 71, .35); */
     max-width: fit-content;
     align-self: center;
 }
@@ -519,7 +518,7 @@ input[type=submit] {
     box-shadow: 0 3px 7px 1px rgba(50, 50, 50, 0.25);
 }
 
-/* Responsive layout - makes a one column-layout instead of three-column layout */
+/* Responsive layout */
 
 @media (max-width: 1450px) {
 
