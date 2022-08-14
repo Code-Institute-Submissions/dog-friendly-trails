@@ -67,11 +67,6 @@ h2 {
     display: none;
 }
 
-
-.navbar-container label {
-    display: none;
-}
-
 .navbar-container {
     flex-direction: row;
     list-style: none;
