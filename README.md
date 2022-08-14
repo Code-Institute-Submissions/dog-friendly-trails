@@ -176,12 +176,23 @@ Validator Testing
 
 - HTML:             All pages were passed through the official https://validator.w3.org/ and no errors were found.
 - CSS:              All pages were passed through the official https://jigsaw.w3.org/css-validator/ and no errors were found.
-- Accessibility:    By running the site through Lighthouse in Inspect on Chrome I got the following results:
+- Accessibility:    By running the site pages through Lighthouse in Inspect on Chrome I got the following results:
 
+index desktop                |  index mobile
+:-----------------:|:-----------------:
+![](assets/images/indexdesktop.webp)  |  ![](assets/images/indexmobile.webp)
 
-|                                Desktop                                                  |                                Mobile                                            |
-| Index               | 
-|![Lighthouse Desktop](assets/images/lighthousedesktop.webp)                              | ![Lighthouse Mobile](assets/images/lighthouse.webp)                              |
+trails desktop               |  trails mobile
+:-----------------:|:-----------------:
+![](assets/images/trailsdesktop.webp)  |  ![](assets/images/trailsmobile.webp)
+
+gallery desktop               |  gallery mobile
+:-----------------:|:-----------------:
+![](assets/images/gallerydesktop.webp)  |  ![](assets/images/gallerymobile.webp)
+
+subscribe desktop               |  subscribe mobile
+:-----------------:|:-----------------:
+![](assets/images/subscribedesktop.webp)  |  ![](assets/images/subscribemobile.webp)
 
 ----
 
@@ -334,6 +345,8 @@ The live link to the site on GitHub is: [Dog Friendly Trails](https://tmartin88.
 - To improve css to be more efficient.
 - I would consider learning and using Flex grid for complete site layout.
 - To improve use of flexbox.
+- To get all lighthouse results close to 100%.
+- With regard to gallery images to really get them compressed down to around or less than 50 kb.
 
 ----
  
