@@ -305,6 +305,7 @@ gallery.html               |  login.html
 
 The site is deployed to GitHub pages. 
 
+- Git status check in Gitpod to ensure all is oushed to GitHub.
 - In the GitHub repository under Recent Repositories select [TMartin88/dog-friendly-trails](https://github.com/TMartin88/dog-friendly-trails)
 - Then Settings.
 - Then Pages.
