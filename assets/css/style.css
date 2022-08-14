@@ -62,8 +62,16 @@ h2 {
 }
 
 /* Hide Navigation Hamburger in Desktop Mode */
+.navbar input[type="checkbox"] {
+    display: none;
+}
+
 .navbar .hamburger-lines {
-    display: none ;
+    display: none;
+}
+
+.navbar-container label {
+    display: none;
 }
 
 .navbar-container {
