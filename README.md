@@ -367,5 +367,6 @@ The live link to the site on GitHub is: [Dog Friendly Trails](https://tmartin88.
 - Knocknarea Trail image is thanks to Pete Houghton - Wordpress.com
 - Ger Killilea for Audio piece on hiking.
 - Trail Videos are embeeded iframe links fro youtube.
+- Social media icons coutesy of Love Running Project.
 
 ----
