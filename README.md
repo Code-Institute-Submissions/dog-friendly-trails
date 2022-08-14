@@ -20,6 +20,7 @@ Hikers are invited to subscribe to get access to all the verified dog friendly t
 - The hero section is shared between the home page and the subscribe page. The hero image enhances the message "Bring your dog" and is eye catching and attracts the users attention on the home page and also nudges the user to commit to subscribe on the subscribe page.
 - The ethos section encourages the users to find out more about dog friendly trails and why they should bring their dogs with them on hikes.
 - The trails page provides the user with interesting information on 3 popular hikes that are dog friendly. This also gives the user an idea of what is available to them if they subscribe.
+- The Trails page has more colour in it. The background colour scheme chosen clearly shows the 3 trails as different entities.
 - The gallery page provides an interesting array of pictures with dogs enjoying trails. It is anticipated that users will identify with these images and see themselves with their dogs hiking interesting trails.
 - The subscribe page is hopefully where users browsing the site will arrive at. There are CTA's in the index page and the footer leading them in that direction. Once there the subscribe form is simple and clear for them navigate and fill in. 
 
@@ -106,6 +107,7 @@ Voted trails of the week
 - This consists of 3 highlighted trails that are presented in 3 columns.
 - These columns stack on smaller devices.
 - Each column has a featured trail with details about that trail including a youtube video and a link to to an external site.
+- Each column has a different background colour to clearly show that each trail is a seperate entity.
 
 ![](assets/images/trails.png)
 <br><br>
@@ -228,19 +230,19 @@ gallery.html               |  login.html
 ### Solved Bugs
 
 July 12th I discovered a problem with the Readme file in that I could not get Wireframes in PDF format to work.
-Fix 914854d changed to images instead.
+Fix 914854db37d5a4f86d42053262d710da332bdf6e changed to images instead.
 
 July 13th Due to a typo at the top of style.css which had a ripple effect of formatting issues further down the style.css document. I had various formatting problems that needed a tidy up.
-Fix 00cfa73 Some css reformatting required.
+Fix 00cfa733a6ee2ea4a31b3c6ea74a4e78b181d82d Some css reformatting required.
 
 July 14th Due to mistakes with relative path the site when viewed on github looked wrong with the hero image missing.
-Fix 58ba9b4 Fixed relative path.
+Fix 58ba9b492aeddd10a609252606df2537313d8f14 Fixed relative path.
 
 July 18th Form validation javascript error.
-Fix bc31621 Fixed javascript
+Fix bc31621d1b85133355cee5943063c6f8cdbdebac Fixed javascript
 
 July 21st Spacing errors in social media and a type error in the hero section.
-Fix fcf07b6 Spacing errors and typo fixed.
+Fix fcf07b6278ee7159886b0fd78bf7ac21bc3cb269 Spacing errors and typo fixed.
 
 July 21st Spacing errors on trails page.
 Fix 2b16e4e5dbef380f4f1e7a6af4a3437fce5587cc Spacing errors fixed.
@@ -302,8 +304,6 @@ Fix 4bc856ed1b17308387e456063c0a9e24eab10e1a typo fixed.
 
 August 12th typos in readme.
 Fix c9d56780de488604175e08fb123e791dcd6cbf94 typo fixed.
-
-
 
 ### Unfixed Bugs
 
