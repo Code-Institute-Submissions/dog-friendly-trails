@@ -4,12 +4,11 @@
 
 Dog Friendly Trails is a site that looks to keep up to date with the most recent rules and regulations with regard to dogs on Irish walking trails.
 The site is targetted at people of all ages who like to hike Irish walking trails encouraging them to bring their dogs with them on hikes.      
-<br>
+
 Dog Friendly Trails is useful for these hikers by allowing them to plan for hikes by picking out trails that are most suitable for dogs.
 Hikers are invited to subscribe to get access to all the verified dog friendly trails. These verifications will be gathered by hikers submitting their experience with regard to dogs, on trails they have hiked.
-<br>
-<br>
-![](assets/images/responsivelook.png)
+
+![](assets/images/responsiveLook.webp)
 
 # UX/UI & Features
 
@@ -50,9 +49,9 @@ Hikers are invited to subscribe to get access to all the verified dog friendly t
 
 ---- 
 
-![](assets/images/header.png)
+![](assets/images/header.webp)
 
-![](assets/images/hamburgerclosed.png)  |  ![](assets/images/hamburger.png)
+![](assets/images/hamburgerclosed.webp)  |  ![](assets/images/hamburger.webp)
 
 ## Header
 
@@ -63,11 +62,9 @@ Hikers are invited to subscribe to get access to all the verified dog friendly t
 - The logo is also very helpful in providing emphasis on a positive dog image.
 ----  
 
-## Pages
-<br>
+## Pages  
 
-### Index Page titled Home
-<br>
+### Index Page titled Home  
 
 Hero Section
 
@@ -77,10 +74,10 @@ Hero Section
 - The background color of the CTA also complements the green in the logo.  
 - The image of the dog smiling with a header which belongs to the ethos section is pulled up into the hero section for added visual impact. 
 
-![](assets/images/hero.png)
-<br><br>
+![](assets/images/hero.webp)
+
 Ethos Section
-<br>
+
 The ethos section is displayed in 3 columns. These columns stack on smaller devices.
 
 Left Column
@@ -89,18 +86,16 @@ Left Column
 - Below this is a challenge statement seeking to engage the user. 
 - Below the challenge statement are some interesting fact statements. 
 
-![](assets/images/ethosleft.png)
+![](assets/images/ethosleft.webp)
 
 Center and Right Columns
 
 - The center and right columns are laid out with 4 key Why? statements.
 - These address the main reasons why it is important for users to consider bringing their dogs with them on hikes.
 
-![](assets/images/ethoscenterright.png)
-<br><br>
+![](assets/images/ethoscenterright.webp)
 
 ### Trails Page
-<br>
 
 Voted trails of the week
 
@@ -109,11 +104,9 @@ Voted trails of the week
 - Each column has a featured trail with details about that trail including a youtube video and a link to to an external site.
 - Each column has a different background colour to clearly show that each trail is a seperate entity.
 
-![](assets/images/trails.png)
-<br><br>
+![](assets/images/trails.webp)
 
 ### Gallery Page
-<br>
 
 This contains images of dogs on hiking trails.
 
@@ -123,12 +116,10 @@ This contains images of dogs on hiking trails.
 - Each image has a hover effect.
 - Each image has a lightbox effect with navigation included in the lightbox display.
 
-![](assets/images/gallery.png)
-![](assets/images/lightbox.png)
-<br><br>
+![](assets/images/gallery.webp)
+![](assets/images/lightbox.webp)
 
 ### Subscribe Page
-<br>
 
 This page is where a user can subscribe.
 
@@ -141,7 +132,7 @@ This is identical to the hero section on the index.html page. (Please see index 
 - Below this is a challenge statement seeking to engage the user is an audio piece provided by a hiker.
 - Below that is a headline inviting a user to listen to the audio.
 
-![](assets/images/audio.png)
+![](assets/images/audio.webp)
 
 - The right column has the subscription form.
 - The form is laid out in 3 distinct areas:
@@ -150,17 +141,16 @@ This is identical to the hero section on the index.html page. (Please see index 
     - Trail Regional Preferences
 - A subscribe button is clearly visible and it's background color draws a users attention to it.
 
-![](assets/images/subscribeform.png)
-![](assets/images/subscribebutton.png)
-<br><br>
+![](assets/images/subscribeform.webp)
+![](assets/images/subscribebutton.webp)
 
 ----
 
 ## Footer
-<br>
+
 The footer is used for all pages. However the subscribe page is slightly different in that the Subscribe button is omitted from the footer as it is used with the subscribe form.
 
-![](assets/images/footersubscribe.png)
+![](assets/images/footersubscribe.webp)
 
 The footer is displayed in 3 columns.
 
@@ -168,7 +158,7 @@ The footer is displayed in 3 columns.
 - The middle column contains our social media icons. These link to external social media pages.
 - The right column displays a subscribe button which links to the subscribe page.
 
-![](assets/images/footer.png)
+![](assets/images/footer.webp)
 
 ----
 
@@ -188,7 +178,7 @@ Validator Testing
 - CSS:              All pages were passed through the official https://jigsaw.w3.org/css-validator/ and no errors were found.
 - Accessibility:    By running the site through https://web.dev/measure/ I got all results in the green.
 
-![](assets/images/lighthouse.png)
+![](assets/images/lighthouse.webp)
 
 Note: Accessibility would be 100% except for the CSS only hamburger as this seems to compromise acessibility. I tested without the hamburger and the score was 100%
 
@@ -200,11 +190,11 @@ Note: Accessibility would be 100% except for the CSS only hamburger as this seem
 
 index.html                 |  trails.html
 :-----------------:|:-----------------:
-![](docs/wireframes/index.png)  |  ![](docs/wireframes/trailspage.png)
+![](docs/wireframes/index.webp)  |  ![](docs/wireframes/trailspage.webp)
 
 gallery.html               |  login.html
 :-----------------:|:-----------------:
-![](docs/wireframes/gallerypage.png)  |  ![](docs/wireframes/loginpage.png)
+![](docs/wireframes/gallerypage.webp)  |  ![](docs/wireframes/loginpage.webp)
 
 - July 12th I introduce a fancy multiline button with a pacman hover effect on Footer. See Credits for keenanpayne.com.
 - July 14th I decide to remove the Login Form as I deem it confusing to include it at this point when I do not have a fully working login framework.
@@ -229,85 +219,85 @@ gallery.html               |  login.html
 
 ### Solved Bugs
 
-July 12th I discovered a problem with the Readme file in that I could not get Wireframes in PDF format to work.
-Fix 914854db37d5a4f86d42053262d710da332bdf6e changed to images instead.
+- July 12th I discovered a problem with the Readme file in that I could not get Wireframes in PDF format to work.
+    - Fix 914854db37d5a4f86d42053262d710da332bdf6e changed to images instead.
 
-July 13th Due to a typo at the top of style.css which had a ripple effect of formatting issues further down the style.css document. I had various formatting problems that needed a tidy up.
-Fix 00cfa733a6ee2ea4a31b3c6ea74a4e78b181d82d Some css reformatting required.
+- July 13th Due to a typo at the top of style.css which had a ripple effect of formatting issues further down the style.css document. I had various formatting problems that needed a tidy up.
+    - Fix 00cfa733a6ee2ea4a31b3c6ea74a4e78b181d82d Some css reformatting required.
 
-July 14th Due to mistakes with relative path the site when viewed on github looked wrong with the hero image missing.
-Fix 58ba9b492aeddd10a609252606df2537313d8f14 Fixed relative path.
+- July 14th Due to mistakes with relative path the site when viewed on github looked wrong with the hero image missing.
+    - Fix 58ba9b492aeddd10a609252606df2537313d8f14 Fixed relative path.
 
-July 18th Form validation javascript error.
-Fix bc31621d1b85133355cee5943063c6f8cdbdebac Fixed javascript
+- July 18th Form validation javascript error.
+    - Fix bc31621d1b85133355cee5943063c6f8cdbdebac Fixed javascript
 
-July 21st Spacing errors in social media and a type error in the hero section.
-Fix fcf07b6278ee7159886b0fd78bf7ac21bc3cb269 Spacing errors and typo fixed.
+- July 21st Spacing errors in social media and a type error in the hero section.
+    - Fix fcf07b6278ee7159886b0fd78bf7ac21bc3cb269 Spacing errors and typo fixed.
 
-July 21st Spacing errors on trails page.
-Fix 2b16e4e5dbef380f4f1e7a6af4a3437fce5587cc Spacing errors fixed.
+- July 21st Spacing errors on trails page.
+    - Fix 2b16e4e5dbef380f4f1e7a6af4a3437fce5587cc Spacing errors fixed.
 
-July 21st Font issue with roboto condensed not proper use of syntax
-Fix 1dd56159346b445ee90f27ab84e014e2c46d9248 Syntax sorted.
+- July 21st Font issue with roboto condensed not proper use of syntax
+    - Fix 1dd56159346b445ee90f27ab84e014e2c46d9248 Syntax sorted.
 
-July 21st Footer button div background flagged by w3 validator.
-Fix da51a9fe6febd809cfa2f751a498cce465a06a64 Div background changed.
+- July 21st Footer button div background flagged by w3 validator.
+    - Fix da51a9fe6febd809cfa2f751a498cce465a06a64 Div background changed.
 
-July 21st Submit button on subscribe form error.
-Fix 346c0eaae930b12539ffdd56452240ca05d84b1e Submit button changed.
+- July 21st Submit button on subscribe form error.
+- Fix 346c0eaae930b12539ffdd56452240ca05d84b1e Submit button changed.
 
-July 23rd Responsive style error at 768px.
-Fix d95b1db63be036f9ef035b3ab8c30354013f8e79 Hamburger styling changed.
+- July 23rd Responsive style error at 768px.
+    - Fix d95b1db63be036f9ef035b3ab8c30354013f8e79 Hamburger styling changed.
 
-July 24th Active not working on all navaigaion links.
-Fix 69498a174c8037baab815540a40b6369249091d6 Active sorted.
+- July 24th Active not working on all navaigaion links.
+    - Fix 69498a174c8037baab815540a40b6369249091d6 Active sorted.
 
-July 24th Parse error in style sheet.
-Fix 44e2697a2b3a9d793f98e204647fdf89992d1f61 Parse error fixed.
+- July 24th Parse error in style sheet.
+    - Fix 44e2697a2b3a9d793f98e204647fdf89992d1f61 Parse error fixed.
 
-July 24th css validator error background color of none is not allowed.
-Fix 05bc1f2ff0bb552c6040a4ab266cf1872f40ba48 Background is now transparent.
+- July 24th css validator error background color of none is not allowed.
+    - Fix 05bc1f2ff0bb552c6040a4ab266cf1872f40ba48 Background is now transparent.
 
-August 1st alt on site logo is incorrect.
-Fix 621349334ae3b57a7a08558b37ebe4fef2b03e95 alt changed.
+- August 1st alt on site logo is incorrect.
+    - Fix 621349334ae3b57a7a08558b37ebe4fef2b03e95 alt changed.
 
-August 10th href error on logo.
-Fix 9867899eee98ff6f2261ff1c88a55923bdbe7165 Fixed href on logo on all pages.
+- August 10th href error on logo.
+    - Fix 9867899eee98ff6f2261ff1c88a55923bdbe7165 Fixed href on logo on all pages.
 
-August 11th Typo errors on hero section and audio on subscribe form.
-Fix 26c5c65972f311beea14dce239216f82a366b0bd Typos fixed.
+- August 11th Typo errors on hero section and audio on subscribe form.
+    - Fix 26c5c65972f311beea14dce239216f82a366b0bd Typos fixed.
 
-August 11th aria-describedby errors.
-Fix 26c5c65972f311beea14dce239216f82a366b0bd Errors fixed.
-Fix 26c5c65972f311beea14dce239216f82a366b0bd Errors Fixed.
+- August 11th aria-describedby errors.
+- Fix 26c5c65972f311beea14dce239216f82a366b0bd Errors fixed.
+    - Fix 26c5c65972f311beea14dce239216f82a366b0bd Errors Fixed.
 
-August 11th Radio input typo.
-Fix 3d5eba0f518565392cd4d068c4db59237c6f3217 Typo fixed.
+- August 11th Radio input typo.
+    - Fix 3d5eba0f518565392cd4d068c4db59237c6f3217 Typo fixed.
 
-August 11th Typo in comments on gallery page.
-Fix bb0143d3cf97e1f47696f1383d3a63c65e82aea6 Typo fixed.
+- August 11th Typo in comments on gallery page.
+    - Fix bb0143d3cf97e1f47696f1383d3a63c65e82aea6 Typo fixed.
 
-August 11th aria labels issues on footer.
-Fix dfeb94bb3ce18b41701cadd66e101c7e7e7fb9f9 aria labels fixed.
-Fix 95de492e7fabc4fd17a378ab67e49b37eef2540a aria labels fixed.
+- August 11th aria labels issues on footer.
+    - Fix dfeb94bb3ce18b41701cadd66e101c7e7e7fb9f9 aria labels fixed.
+    - Fix 95de492e7fabc4fd17a378ab67e49b37eef2540a aria labels fixed.
 
-Ausust 11th typos in footer with regard to href.
-Fix 95de492e7fabc4fd17a378ab67e49b37eef2540a typo fixed.
-Fix 1a737936cadf2b62ecaf91772a0539869576ffb4 typo fixed.
-Fix a2bcb9c20c9520e266394eb6ddf298c9480be700 typo fixed.
-Fix 5aeb1b196f7fe4e95fe99aabb4ab5de18b1b0af4 typo fixed.
-Fix 851c02a77587329aacdbc8b85c9c9fc8cee0d046 typo fixed.
+- Ausust 11th typos in footer with regard to href.
+    - Fix 95de492e7fabc4fd17a378ab67e49b37eef2540a typo fixed.
+    - Fix 1a737936cadf2b62ecaf91772a0539869576ffb4 typo fixed.
+    - Fix a2bcb9c20c9520e266394eb6ddf298c9480be700 typo fixed.
+    - Fix 5aeb1b196f7fe4e95fe99aabb4ab5de18b1b0af4 typo fixed.
+    - Fix 851c02a77587329aacdbc8b85c9c9fc8cee0d046 typo fixed.
 
-August 11th typos on aria labels in footer.
-Fix b4bf39bb9f5bc81cdd58c0537c3fabf88a9d465a typo fixed.
-Fix 4bc856ed1b17308387e456063c0a9e24eab10e1a typo fixed.
+- August 11th typos on aria labels in footer.
+    - Fix b4bf39bb9f5bc81cdd58c0537c3fabf88a9d465a typo fixed.
+    - Fix 4bc856ed1b17308387e456063c0a9e24eab10e1a typo fixed.
 
-August 12th typos in readme.
-Fix c9d56780de488604175e08fb123e791dcd6cbf94 typo fixed.
+- August 12th typos in readme.
+    - Fix c9d56780de488604175e08fb123e791dcd6cbf94 typo fixed.
 
 ### Unfixed Bugs
 
-No unfixed bugs
+- No known unfixed bugs
 
 ----
 
@@ -378,6 +368,3 @@ The live link to the site on GitHub is: [Dog Friendly Trails](https://tmartin88.
 - Trail Videos are embeeded iframe links fro youtube.
 
 ----
-
-
-
